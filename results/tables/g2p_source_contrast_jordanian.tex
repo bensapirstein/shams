@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l rr r@{}}
+\toprule
+& \multicolumn{1}{c}{Casablanca} & \multicolumn{1}{c}{LangMedia} & $\Delta$ \\
+& \multicolumn{1}{c}{\scriptsize $n=137$, 10.5\,min} & \multicolumn{1}{c}{\scriptsize $n=168$, 15.0\,min} & \\
+\midrule
+\multicolumn{4}{l}{\textit{CER (\%)}} \\
+\addlinespace[2pt]
+~ Gemini & 12.2 & 11.1 & -1.0 \\
+~ Opus 4.8 & 11.5 & 11.1 & -0.5 \\
+~ GPT-5.5 & 12.7 & 11.3 & -1.4 \\
+~ JAIS-8B & 40.0 & 33.9 & -6.1 \\
+~ Levanti$^{*}$ & 17.7 & 16.8 & -0.9 \\
+~ Charsiu & 35.7 & 32.7 & -2.9 \\
+\bottomrule
+\end{tabular*}
+\caption{Within-variety source contrast for Jordanian, scored as in \Cref{tab:g2p-results}, the within-variety comparison the expanded dataset was selected to support. $\Delta$ is LangMedia $-$ Casablanca, and is a difference of rates rather than an estimate with an interval; read it against the two utterance counts in the header. Source and speaker gender remain partly entangled (\S\ref{sec:limitations}), so this bounds rather than isolates the source effect. $^{*}$ Levanti produced the first-pass phonetic transcription that the 780 expansion utterances were corrected from, so its score on those is not an independent measurement.}
+\label{tab:g2p-source-jordanian}
+\end{table}

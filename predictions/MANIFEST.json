@@ -1,0 +1,30 @@
+{
+  "g2p/gemini-3.5-flash": {
+    "n": 1300,
+    "references_refreshed": 0
+  },
+  "g2p/gpt-5.5": {
+    "n": 1300,
+    "references_refreshed": 0
+  },
+  "g2p/claude-opus-4-8": {
+    "n": 1300,
+    "references_refreshed": 0
+  },
+  "g2p/jais-v2-8b": {
+    "n": 1300,
+    "references_refreshed": 0,
+    "hypotheses_empty_no_answer": 131,
+    "note": "The parser finds a transliteration in 1,169 of the 1,300 responses; the other 131 answered in Arabic script or answered the utterance instead of transliterating it, and are released as empty answers, which score as full deletions. Each such row keeps the model's reply under `response`."
+  },
+  "g2p/charsiu-byt5": {
+    "n": 1300,
+    "references_refreshed": 0,
+    "note": "Emits IPA; scored through the charsiu entry normalizer."
+  },
+  "g2p/levanti": {
+    "n": 1300,
+    "references_refreshed": 0,
+    "note": "Emits its own romanization; scored through the levanti entry normalizer."
+  }
+}

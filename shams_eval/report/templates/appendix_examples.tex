@@ -1,0 +1,84 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.12\textwidth} p{0.82\textwidth}}
+\toprule
+\textbf{Utterance} & \textbf{Diacritization: reference vs.\ model output} \\
+\midrule
+\texttt{6539\_1} \newline \scriptsize {{subdialect 6539_1}} & Ref: {{vocalized_transcript 6539_1}} \newline Gemini~3.5~Flash: {{diacritization/gemini-3.5-flash 6539_1}} \newline Claude~Opus~4.8: {{diacritization/claude-opus-4-8 6539_1}} \newline GPT-5.5: {{diacritization/gpt-5.5 6539_1}} \newline Shakkala: {{diacritization/shakkala 6539_1}} \newline Catt: {{diacritization/catt 6539_1}} \newline Levanti: {{diacritization/levanti 6539_1}} \\
+\addlinespace[4pt]
+\texttt{LEB\_0} \newline \scriptsize {{subdialect LEB_0}} & Ref: {{vocalized_transcript LEB_0}} \newline Gemini~3.5~Flash: {{diacritization/gemini-3.5-flash LEB_0}} \newline Claude~Opus~4.8: {{diacritization/claude-opus-4-8 LEB_0}} \newline GPT-5.5: {{diacritization/gpt-5.5 LEB_0}} \newline Shakkala: {{diacritization/shakkala LEB_0}} \newline Catt: {{diacritization/catt LEB_0}} \newline Levanti: {{diacritization/levanti LEB_0}} \\
+\addlinespace[4pt]
+\texttt{46385\_1} \newline \scriptsize {{subdialect 46385_1}} & Ref: {{vocalized_transcript 46385_1}} \newline Gemini~3.5~Flash: {{diacritization/gemini-3.5-flash 46385_1}} \newline Claude~Opus~4.8: {{diacritization/claude-opus-4-8 46385_1}} \newline GPT-5.5: {{diacritization/gpt-5.5 46385_1}} \newline Shakkala: {{diacritization/shakkala 46385_1}} \newline Catt: {{diacritization/catt 46385_1}} \newline Levanti: {{diacritization/levanti 46385_1}} \\
+\addlinespace[4pt]
+\texttt{46465\_1} \newline \scriptsize {{subdialect 46465_1}} & Ref: {{vocalized_transcript 46465_1}} \newline Gemini~3.5~Flash: {{diacritization/gemini-3.5-flash 46465_1}} \newline Claude~Opus~4.8: {{diacritization/claude-opus-4-8 46465_1}} \newline GPT-5.5: {{diacritization/gpt-5.5 46465_1}} \newline Shakkala: {{diacritization/shakkala 46465_1}} \newline Catt: {{diacritization/catt 46465_1}} \newline Levanti: {{diacritization/levanti 46465_1}} \\
+\addlinespace[4pt]
+\texttt{SYR\_0} \newline \scriptsize {{subdialect SYR_0}} & Ref: {{vocalized_transcript SYR_0}} \newline Gemini~3.5~Flash: {{diacritization/gemini-3.5-flash SYR_0}} \newline Claude~Opus~4.8: {{diacritization/claude-opus-4-8 SYR_0}} \newline GPT-5.5: {{diacritization/gpt-5.5 SYR_0}} \newline Shakkala: {{diacritization/shakkala SYR_0}} \newline Catt: {{diacritization/catt SYR_0}} \newline Levanti: {{diacritization/levanti SYR_0}} \\
+\bottomrule
+\end{tabular}
+\caption{Full-utterance diacritization outputs, one example per variety (raw model output vs.\ the gold reference).}
+\label{tab:diac-examples-full}
+\end{table*}
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.12\textwidth} p{0.82\textwidth}}
+\toprule
+\textbf{Utterance} & \textbf{G2P: reference vs.\ model output} \\
+\midrule
+\texttt{6539\_1} \newline \scriptsize {{subdialect 6539_1}} & Ref: {{translit 6539_1}} \newline Gemini~3.5~Flash: {{g2p/gemini-3.5-flash 6539_1}} \newline Levanti: {{g2p/levanti 6539_1}} \\
+\addlinespace[4pt]
+\texttt{LEB\_0} \newline \scriptsize {{subdialect LEB_0}} & Ref: {{translit LEB_0}} \newline Gemini~3.5~Flash: {{g2p/gemini-3.5-flash LEB_0}} \newline Levanti: {{g2p/levanti LEB_0}} \\
+\addlinespace[4pt]
+\texttt{46385\_1} \newline \scriptsize {{subdialect 46385_1}} & Ref: {{translit 46385_1}} \newline Gemini~3.5~Flash: {{g2p/gemini-3.5-flash 46385_1}} \newline Levanti: {{g2p/levanti 46385_1}} \\
+\addlinespace[4pt]
+\texttt{46465\_1} \newline \scriptsize {{subdialect 46465_1}} & Ref: {{translit 46465_1}} \newline Gemini~3.5~Flash: {{g2p/gemini-3.5-flash 46465_1}} \newline Levanti: {{g2p/levanti 46465_1}} \\
+\addlinespace[4pt]
+\texttt{SYR\_0} \newline \scriptsize {{subdialect SYR_0}} & Ref: {{translit SYR_0}} \newline Gemini~3.5~Flash: {{g2p/gemini-3.5-flash SYR_0}} \newline Levanti: {{g2p/levanti SYR_0}} \\
+\bottomrule
+\end{tabular}
+\caption{Full-utterance G2P (phonetic transcription) outputs for the same five utterances (reference vs.\ Gemini 3.5 Flash and Levanti).}
+\label{tab:g2p-examples-full}
+\end{table*}
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.12\textwidth} p{0.82\textwidth}}
+\toprule
+\textbf{Utterance} & \textbf{ASR: reference vs.\ model output} \\
+\midrule
+\texttt{6539\_1} \newline \scriptsize {{subdialect 6539_1}} & Ref: {{transcription 6539_1}} \newline Whisper-Levantine: {{asr/hebarab-whisper-levantine 6539_1}} \newline Seamless-EGY: {{asr/seamless-m4t-v2-large-arz 6539_1}} \newline Seamless-MSA: {{asr/seamless-m4t-v2-large 6539_1}} \\
+\addlinespace[4pt]
+\texttt{LEB\_0} \newline \scriptsize {{subdialect LEB_0}} & Ref: {{transcription LEB_0}} \newline Whisper-Levantine: {{asr/hebarab-whisper-levantine LEB_0}} \newline Seamless-EGY: {{asr/seamless-m4t-v2-large-arz LEB_0}} \newline Seamless-MSA: {{asr/seamless-m4t-v2-large LEB_0}} \\
+\addlinespace[4pt]
+\texttt{46385\_1} \newline \scriptsize {{subdialect 46385_1}} & Ref: {{transcription 46385_1}} \newline Whisper-Levantine: {{asr/hebarab-whisper-levantine 46385_1}} \newline Seamless-EGY: {{asr/seamless-m4t-v2-large-arz 46385_1}} \newline Seamless-MSA: {{asr/seamless-m4t-v2-large 46385_1}} \\
+\addlinespace[4pt]
+\texttt{46465\_1} \newline \scriptsize {{subdialect 46465_1}} & Ref: {{transcription 46465_1}} \newline Whisper-Levantine: {{asr/hebarab-whisper-levantine 46465_1}} \newline Seamless-EGY: {{asr/seamless-m4t-v2-large-arz 46465_1}} \newline Seamless-MSA: {{asr/seamless-m4t-v2-large 46465_1}} \\
+\addlinespace[4pt]
+\texttt{SYR\_0} \newline \scriptsize {{subdialect SYR_0}} & Ref: {{transcription SYR_0}} \newline Whisper-Levantine: {{asr/hebarab-whisper-levantine SYR_0}} \newline Seamless-EGY: {{asr/seamless-m4t-v2-large-arz SYR_0}} \newline Seamless-MSA: {{asr/seamless-m4t-v2-large SYR_0}} \\
+\bottomrule
+\end{tabular}
+\caption{Full-utterance ASR outputs, one example per variety (raw model output vs.\ the reference transcription).}
+\label{tab:asr-examples-full}
+\end{table*}
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.12\textwidth} p{0.82\textwidth}}
+\toprule
+\textbf{Utterance} & \textbf{A2P (audio-to-phonetic transcription): reference vs.\ model output} \\
+\midrule
+\texttt{6539\_1} \newline \scriptsize {{subdialect 6539_1}} & Ref: {{translit 6539_1}} \newline GPT-Audio: {{a2p/gpt-audio 6539_1}} \newline Gemini~3.5~Flash: {{a2p/gemini-3.5-flash 6539_1}} \\
+\addlinespace[4pt]
+\texttt{LEB\_0} \newline \scriptsize {{subdialect LEB_0}} & Ref: {{translit LEB_0}} \newline GPT-Audio: {{a2p/gpt-audio LEB_0}} \newline Gemini~3.5~Flash: {{a2p/gemini-3.5-flash LEB_0}} \\
+\addlinespace[4pt]
+\texttt{46385\_1} \newline \scriptsize {{subdialect 46385_1}} & Ref: {{translit 46385_1}} \newline GPT-Audio: {{a2p/gpt-audio 46385_1}} \newline Gemini~3.5~Flash: {{a2p/gemini-3.5-flash 46385_1}} \\
+\addlinespace[4pt]
+\texttt{46465\_1} \newline \scriptsize {{subdialect 46465_1}} & Ref: {{translit 46465_1}} \newline GPT-Audio: {{a2p/gpt-audio 46465_1}} \newline Gemini~3.5~Flash: {{a2p/gemini-3.5-flash 46465_1}} \\
+\addlinespace[4pt]
+\texttt{SYR\_0} \newline \scriptsize {{subdialect SYR_0}} & Ref: {{translit SYR_0}} \newline GPT-Audio: {{a2p/gpt-audio SYR_0}} \newline Gemini~3.5~Flash: {{a2p/gemini-3.5-flash SYR_0}} \\
+\bottomrule
+\end{tabular}
+\caption{Full-utterance A2P (audio-to-phonetic transcription) outputs for the same five utterances (reference vs.\ GPT-Audio and Gemini 3.5 Flash).}
+\label{tab:a2p-examples-full}
+\end{table*}

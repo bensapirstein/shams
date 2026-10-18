@@ -1,0 +1,33 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{p{2.2cm} p{3.1cm} p{1.4cm}}
+\toprule
+ \textbf{Reference} & \textbf{Model output} & \textbf{MSA feature}\\
+\midrule
+  \ar{و كِيف بِدُّو يِعرِف اِنُّو خَبَّرنَاهُم}
+    \newline \scriptsize Jordanian
+  & Catt: \ar{وَ \textbf{كَيْفَ} بَدُوٌّ \textbf{يُعْرَفُ} انْوِ خَبَرْنَاهُمْ}
+    \newline Gemini: \ar{و كِيف بِدّو يِعرِف اِنّو خَبَّرنَاهُم}
+    & case endings \\
+  \ar{نِمشِي بَكِّير لَأَنُّه فِي هَالمَسَافِة كِلّهَا}
+    \newline \scriptsize Lebanese
+  & Mishkal: \ar{نَمِشِيٌّ بِكِيرٍ لأَنّهُ فِي هالمسافة \textbf{كُلّهَا}}
+    \newline Gemini: \ar{نِمشِي بَكِّير لَأَنُّه فِي هَالمَسَافِة كِلّهَا}
+    & MSA vowels \\
+  \ar{نِحنَا هَلَّق بمَوسَم، \dots}
+    \newline \scriptsize Lebanese
+  & Mishkal: \ar{\textbf{نُحْنَا} هلق \textbf{بِمَوْسِمٍ} \dots}
+    \newline Levanti: \ar{نِحْنَا هَلَّق بْمَوْسِم، \dots}
+    & short vowels \\
+    \bottomrule
+\end{tabular}
+\caption{Diacritization examples: an MSA-oriented dedicated system (Catt,
+Mishkal) vs.\ a Levantine-aware system (Gemini, Levanti) on the same utterance.
+\textbf{Bold} marks words that still differ from the reference after the
+normalization of \S\ref{sec:app_normalization}, so sukun and the MSA
+case-\textit{tanwin} are not marked; the Modern Standard Arabic feature that
+the dedicated diacritizer restores but Levantine speech does not is named at
+right, and the Levantine-aware system produces the dialectal form.}
+\label{tab:diac-qualitative}
+\end{table}

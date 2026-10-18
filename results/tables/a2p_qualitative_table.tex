@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.30\textwidth} p{0.30\textwidth} p{0.30\textwidth}}
+\toprule
+\textbf{Reference} & \textbf{GPT-Audio} & \textbf{Gemini 3.5 F.} \\
+\midrule
+šwayyit zēt
+  \newline \scriptsize Lebanese
+& šwayyit zēt
+& šwayyit zēt \\
+\addlinespace[6pt]
+ʾinti lāzim tistaġil-li hīk mōqif mitl ʿādatek
+  \newline \scriptsize Jordanian
+& \textbf{inti} lāzim \textbf{tistaghillī} \textbf{hēk} \textbf{mawqif} \textbf{mitil} \textbf{ʿādtik.}
+& \textbf{inti} lāzim \textbf{tistagallī} \textbf{hēk} \textbf{mawqif} mitl \textbf{ʿādtik} \\
+\addlinespace[6pt]
+kamān il-ḥubb yaʿni aḥyānan
+  \newline \scriptsize Syrian
+& kamān il-ḥubb yaʿni aḥyānan…
+& kamān il-ḥubb \textbf{yaʿnī} \textbf{ʾaḥyānan} \\
+\addlinespace[6pt]
+masalan, f-lnaftariḍ ʾanno hīyye ʿayynat ʿala tlāt bnāt. \dots
+  \newline \scriptsize Syrian
+& \ar{\textbf{بس} \textbf{أنا} \textbf{بفكر} \textbf{إنو} \textbf{هي} \textbf{عيلة} \textbf{على} \textbf{كلمة} \dots}
+& \textbf{matalan} \textbf{falan-naftariḍ} \textbf{innu} \textbf{hiyyi} \textbf{ʿanīdi} ʿala \textbf{talat} \textbf{banāt,} \dots \\
+\bottomrule
+\end{tabular}
+\caption{Qualitative A2P outputs. Words diverging from the reference are shown in \textbf{bold}. Row~1 (Lebanese) is transcribed perfectly by both systems. Row~2 (Jordanian) illustrates the typical case: minor vowel-quality drift (\textit{hīk}~$\to$~\textit{hēk}), notation variants (\textit{ġ}~$\to$~\textit{gh}), and reduced vowels. Row~3 (Syrian) is again near-perfect, with only long-vowel marking differences in Gemini. Row~4 exposes the dominant failure mode on a harder Syrian clip: GPT-Audio reverts entirely to Arabic script (scored as fully wrong), while Gemini stays in phonetic transcription but introduces errors throughout.}
+\label{tab:a2p-qualitative}
+\end{table*}

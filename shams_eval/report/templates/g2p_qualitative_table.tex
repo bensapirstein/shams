@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{>{\raggedright}p{2cm} >{\raggedright\arraybackslash}p{4.5cm}}
+\toprule
+\textbf{Source} & \textbf{Output} \\
+\midrule
+\multicolumn{2}{l}{\textit{Notational — raw $\hookrightarrow$ normalized}} \\
+\addlinespace[3pt]
+{{transcription LEB_24}}
+  \newline \scriptsize {{subdialect LEB_24}}
+  & \textbf{Ref:} {{translit LEB_24}} $\hookrightarrow$ {{translit LEB_24 norm}}
+    \newline Charsiu: \bareipa{{{g2p/charsiu-byt5 LEB_24}}}
+    \newline Levanti: {{g2p/levanti LEB_24}}
+    \newline Claude: {{g2p/claude-opus-4-8 LEB_24}}
+    \newline $\hookrightarrow$ \textit{all normalize to} {{translit LEB_24 norm}} \\
+\addlinespace[2pt]\midrule\addlinespace[2pt]
+\multicolumn{2}{l}{\textit{Phonological — persists after normalization}} \\
+\addlinespace[3pt]
+{{transcription LEB_143}}
+  \newline \scriptsize {{subdialect LEB_143}}
+  & \textbf{Ref:} {{translit LEB_143 norm}}
+    \newline Charsiu: {{g2p/charsiu-byt5 LEB_143 norm bold}}
+    \newline Levanti: {{g2p/levanti LEB_143 norm bold}}
+    \newline Claude: {{g2p/claude-opus-4-8 LEB_143 norm bold}} \\
+\addlinespace[4pt]
+{{transcription 46632_2}}
+  \newline \scriptsize {{subdialect 46632_2}}
+  & \textbf{Ref:} {{translit 46632_2 norm}}
+    \newline Charsiu: {{g2p/charsiu-byt5 46632_2 norm bold}}
+    \newline Levanti: {{g2p/levanti 46632_2 norm bold}}
+    \newline Claude: {{g2p/claude-opus-4-8 46632_2 norm bold}} \\
+\bottomrule
+\end{tabular}
+\caption{G2P examples. \textit{Top:} different raw notations converge after neutral normalization ($\hookrightarrow$). \textit{Bottom} (normalized): phonological errors persist; \textbf{bold} marks words that differ from the normalized reference. CharsiuG2P adds MSA gemination/epenthesis; no system recovers the rural Palestinian qaf (\textit{ḥak}, [k]), which is rendered as MSA [q] or urban [ʾ].}
+\label{tab:g2p-qualitative}
+\end{table}

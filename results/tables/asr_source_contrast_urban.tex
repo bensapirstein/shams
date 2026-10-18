@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l rr r@{}}
+\toprule
+& \multicolumn{1}{c}{Casablanca} & \multicolumn{1}{c}{LangMedia} & $\Delta$ \\
+& \multicolumn{1}{c}{\scriptsize $n=22$, 1.9\,min} & \multicolumn{1}{c}{\scriptsize $n=208$, 23.1\,min} & \\
+\midrule
+\multicolumn{4}{l}{\textit{WER (\%)}} \\
+\addlinespace[2pt]
+~ Sml-MSA & 39.8 & 31.2 & -8.6 \\
+~ Sml-EGY & 36.5 & 28.4 & -8.0 \\
+~ Whisper v3 & 29.3 & 29.6 & +0.2 \\
+~ Whisper-Lev. & 32.0 & 35.6 & +3.7 \\
+~ MMS-1b & 64.7 & 67.8 & +3.2 \\
+~ BYZÖ-W. & 28.9 & 40.1 & +11.2 \\
+~ Cohere & 31.6 & 36.2 & +4.6 \\
+~ Gemini & 29.3 & 26.3 & -3.1 \\
+~ GPT Audio & 39.5 & 35.6 & -3.9 \\
+\addlinespace[2pt]\midrule\addlinespace[2pt]
+\multicolumn{4}{l}{\textit{CER (\%)}} \\
+\addlinespace[2pt]
+~ Sml-MSA & 10.8 & 13.5 & +2.7 \\
+~ Sml-EGY & 10.6 & 10.8 & +0.1 \\
+~ Whisper v3 & 8.2 & 11.1 & +2.9 \\
+~ Whisper-Lev. & 8.6 & 11.6 & +3.0 \\
+~ MMS-1b & 23.6 & 23.8 & +0.3 \\
+~ BYZÖ-W. & 6.3 & 11.8 & +5.5 \\
+~ Cohere & 10.3 & 19.9 & +9.6 \\
+~ Gemini & 8.2 & 9.8 & +1.6 \\
+~ GPT Audio & 13.8 & 16.3 & +2.5 \\
+\bottomrule
+\end{tabular*}
+\caption{Within-variety source contrast for Pal./Urban, scored as in \Cref{tab:asr-results}, small on the Casablanca side and therefore indicative rather than conclusive. $\Delta$ is LangMedia $-$ Casablanca, and is a difference of rates rather than an estimate with an interval; read it against the two utterance counts in the header. Source and speaker gender remain partly entangled (\S\ref{sec:limitations}), so this bounds rather than isolates the source effect.}
+\label{tab:asr-source-urban}
+\end{table}

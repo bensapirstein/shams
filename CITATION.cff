@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use SHAMS or this evaluation code, please cite the paper."
+title: "SHAMS: An Audio-Grounded Pronunciation Benchmark for Levantine Arabic"
+abstract: >-
+  SHAMS pairs 1,300 Levantine Arabic utterances with four aligned tiers, audio,
+  unvocalized orthography, diacritized Arabic and DIN-31635 phonetic
+  transcription, stratified across five varieties and two source corpora, so
+  that diacritization, grapheme-to-phoneme conversion, speech recognition and
+  audio-to-phonetic transcription can be evaluated over the same material.
+authors:
+  - family-names: "Sapirstein"
+    given-names: "Ben"
+    affiliation: "Reichman University"
+  - family-names: "Mattar"
+    given-names: "Roy"
+    affiliation: "Independent Researcher"
+  - family-names: "Mor-Lan"
+    given-names: "Guy"
+    affiliation: "The Hebrew University of Jerusalem"
+  - family-names: "Mohamed"
+    given-names: "Ahlam"
+    affiliation: "Tel Aviv University"
+  - family-names: "Cerqueglini"
+    given-names: "Letizia"
+    affiliation: "Tel Aviv University"
+  - family-names: "Alper"
+    given-names: "Morris"
+    affiliation: "University of Miami"
+type: software
+repository-code: "https://github.com/bensapirstein/shams"
+license: MIT
+preferred-citation:
+  type: article
+  title: "SHAMS: An Audio-Grounded Pronunciation Benchmark for Levantine Arabic"
+  authors:
+    - family-names: "Sapirstein"
+      given-names: "Ben"
+    - family-names: "Mattar"
+      given-names: "Roy"
+    - family-names: "Mor-Lan"
+      given-names: "Guy"
+    - family-names: "Mohamed"
+      given-names: "Ahlam"
+    - family-names: "Cerqueglini"
+      given-names: "Letizia"
+    - family-names: "Alper"
+      given-names: "Morris"
+  year: 2026
+  journal: "arXiv preprint arXiv:2610.01427"
+  url: "https://arxiv.org/abs/2610.01427"

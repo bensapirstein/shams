@@ -1,0 +1,41 @@
+% \dgap{d}: gap to the second normalization tier in points, set small and
+% grey next to the primary figure. Requires xcolor (already loaded by acl.sty).
+\providecommand{\dgap}[1]{\,\raisebox{0.2ex}{\scriptsize\textcolor{gray}{#1}}}
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l ccccccccc}
+\toprule
+& \rotatebox{60}{Sml-MSA}
+& \rotatebox{60}{Sml-EGY}
+& \rotatebox{60}{Whisper v3}
+& \rotatebox{60}{Whisper-Lev.}
+& \rotatebox{60}{MMS-1b}
+& \rotatebox{60}{BYZÖ-W.}
+& \rotatebox{60}{Cohere}
+& \rotatebox{60}{Gemini}
+& \rotatebox{60}{GPT Audio} \\
+\midrule
+\multicolumn{10}{l}{\textit{WER (\%)}} \\
+\addlinespace[2pt]
+\textbf{Overall} & 40.4\dgap{-4.6} & 36.3\dgap{-4.1} & 39.3\dgap{-5.3} & 38.9\dgap{-15.0} & 72.5\dgap{-1.7} & 37.8\dgap{-6.0} & 35.5\dgap{-5.7} & \textbf{27.6}\dgap{-5.4} & 34.9\dgap{-5.5} \\
+~ Pal./Urban & 31.9\dgap{-4.9} & 29.1\dgap{-4.5} & 29.5\dgap{-6.5} & 35.3\dgap{-16.0} & 67.5\dgap{-2.1} & 39.2\dgap{-9.1} & 35.8\dgap{-5.7} & \textbf{26.5}\dgap{-5.5} & 35.9\dgap{-5.5} \\
+~ Pal./Rural & 47.6\dgap{-3.8} & 42.9\dgap{-2.7} & 45.4\dgap{-3.2} & 34.9\dgap{-14.2} & 77.9\dgap{-0.7} & \textbf{20.3}\dgap{-3.1} & 33.2\dgap{-4.4} & 32.0\dgap{-2.9} & 41.2\dgap{-3.1} \\
+~ Jordanian & 34.7\dgap{-5.8} & 31.8\dgap{-4.3} & 39.5\dgap{-5.5} & 30.3\dgap{-16.6} & 68.2\dgap{-1.9} & 34.4\dgap{-8.1} & 27.1\dgap{-6.5} & \textbf{21.0}\dgap{-5.5} & 28.7\dgap{-5.5} \\
+~ Lebanese & 44.3\dgap{-4.3} & 38.8\dgap{-4.5} & 45.7\dgap{-5.5} & 44.7\dgap{-14.1} & 76.3\dgap{-1.9} & 50.2\dgap{-4.9} & 42.5\dgap{-5.6} & \textbf{27.2}\dgap{-6.1} & 34.0\dgap{-6.3} \\
+~ Syrian & 43.9\dgap{-4.3} & 39.3\dgap{-4.5} & 36.9\dgap{-5.9} & 50.4\dgap{-14.4} & 72.9\dgap{-2.0} & 45.8\dgap{-4.7} & 39.6\dgap{-6.2} & \textbf{31.5}\dgap{-7.2} & 34.5\dgap{-7.3} \\
+\addlinespace[2pt]\midrule\addlinespace[2pt]
+\multicolumn{10}{l}{\textit{CER (\%)}} \\
+\addlinespace[2pt]
+\textbf{Overall} & 17.8\dgap{-1.4} & 14.1\dgap{-1.2} & 20.6\dgap{-1.5} & 13.7\dgap{-3.9} & 27.0\dgap{-1.1} & 11.9\dgap{-1.6} & 16.8\dgap{-1.6} & \textbf{9.6}\dgap{-1.5} & 14.4\dgap{-1.6} \\
+~ Pal./Urban & 13.3\dgap{-1.5} & 10.8\dgap{-1.3} & 10.9\dgap{-1.8} & 11.4\dgap{-4.5} & 23.8\dgap{-1.2} & 11.4\dgap{-2.3} & 19.2\dgap{-1.6} & \textbf{9.7}\dgap{-1.5} & 16.2\dgap{-1.7} \\
+~ Pal./Rural & 19.1\dgap{-1.2} & 16.3\dgap{-0.8} & 32.0\dgap{-1.0} & 10.5\dgap{-3.8} & 29.3\dgap{-0.7} & \textbf{5.9}\dgap{-0.8} & 11.7\dgap{-1.3} & 10.3\dgap{-0.9} & 16.6\dgap{-1.3} \\
+~ Jordanian & 16.6\dgap{-1.6} & 12.8\dgap{-1.2} & 18.2\dgap{-1.5} & 10.1\dgap{-4.2} & 26.1\dgap{-1.1} & 10.3\dgap{-2.1} & 12.0\dgap{-1.8} & \textbf{7.1}\dgap{-1.5} & 11.2\dgap{-1.6} \\
+~ Lebanese & 19.3\dgap{-1.3} & 14.9\dgap{-1.2} & 24.0\dgap{-1.5} & 17.5\dgap{-3.3} & 29.0\dgap{-1.0} & 16.3\dgap{-1.5} & 22.8\dgap{-1.4} & \textbf{10.1}\dgap{-1.4} & 14.7\dgap{-1.6} \\
+~ Syrian & 21.0\dgap{-1.5} & 16.2\dgap{-1.4} & 18.9\dgap{-1.8} & 18.9\dgap{-3.9} & 27.2\dgap{-1.4} & 15.5\dgap{-1.3} & 18.2\dgap{-1.8} & \textbf{10.9}\dgap{-2.1} & 13.2\dgap{-2.1} \\
+\bottomrule
+\end{tabular}
+\caption{ASR results per variety (WER/CER \%, $\downarrow$) on all 1300 utterances, under \textit{neutral} scoring. Small grey figures give the difference from the \textit{strict} tier (\S\ref{sec:app_normalization}). \textbf{Bold} = best per row.}
+\label{tab:asr-results}
+\end{table*}

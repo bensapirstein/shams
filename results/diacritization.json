@@ -1,0 +1,3887 @@
+[
+  {
+    "task": "diacritization",
+    "model_key": "catt",
+    "n": 1300,
+    "normalization_tiers": [
+      "paper",
+      "tanwin_included"
+    ],
+    "metrics": [
+      "der"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "paper": {
+        "der": {
+          "rate": 0.24444148420848671,
+          "counts": {
+            "substitutions": 16331,
+            "deletions": 1927,
+            "insertions": 1927,
+            "hits": 64318
+          }
+        }
+      },
+      "tanwin_included": {
+        "der": {
+          "rate": 0.2682498546793257,
+          "counts": {
+            "substitutions": 18185,
+            "deletions": 1983,
+            "insertions": 1983,
+            "hits": 62408
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "paper": {
+            "der": {
+              "rate": 0.23989733182116635,
+              "counts": {
+                "substitutions": 3271,
+                "deletions": 374,
+                "insertions": 374,
+                "hits": 13108
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2634751984719155,
+              "counts": {
+                "substitutions": 3638,
+                "deletions": 388,
+                "insertions": 388,
+                "hits": 12727
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2539361636953991,
+              "counts": {
+                "substitutions": 3517,
+                "deletions": 314,
+                "insertions": 314,
+                "hits": 12492
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.27997304417080193,
+              "counts": {
+                "substitutions": 3932,
+                "deletions": 319,
+                "insertions": 319,
+                "hits": 12072
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "paper": {
+            "der": {
+              "rate": 0.24847328244274808,
+              "counts": {
+                "substitutions": 3064,
+                "deletions": 421,
+                "insertions": 421,
+                "hits": 12235
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.27048346055979644,
+              "counts": {
+                "substitutions": 3382,
+                "deletions": 435,
+                "insertions": 435,
+                "hits": 11903
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2389395864618228,
+              "counts": {
+                "substitutions": 3375,
+                "deletions": 381,
+                "insertions": 381,
+                "hits": 13558
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.265334411458935,
+              "counts": {
+                "substitutions": 3814,
+                "deletions": 390,
+                "insertions": 390,
+                "hits": 13110
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "paper": {
+            "der": {
+              "rate": 0.24158872828859468,
+              "counts": {
+                "substitutions": 3104,
+                "deletions": 437,
+                "insertions": 437,
+                "hits": 12925
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2624195311551075,
+              "counts": {
+                "substitutions": 3419,
+                "deletions": 451,
+                "insertions": 451,
+                "hits": 12596
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "paper": {
+            "der": {
+              "rate": 0.253153704837722,
+              "counts": {
+                "substitutions": 4857,
+                "deletions": 672,
+                "insertions": 672,
+                "hits": 18966
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2769544805062258,
+              "counts": {
+                "substitutions": 5396,
+                "deletions": 694,
+                "insertions": 694,
+                "hits": 18405
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "paper": {
+            "der": {
+              "rate": 0.24076720442141147,
+              "counts": {
+                "substitutions": 11474,
+                "deletions": 1255,
+                "insertions": 1255,
+                "hits": 45352
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2645787779136034,
+              "counts": {
+                "substitutions": 12789,
+                "deletions": 1289,
+                "insertions": 1289,
+                "hits": 44003
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "paper": {
+            "der": {
+              "rate": 0.25275892440806175,
+              "counts": {
+                "substitutions": 7929,
+                "deletions": 914,
+                "insertions": 914,
+                "hits": 29759
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.277602196777369,
+              "counts": {
+                "substitutions": 8834,
+                "deletions": 941,
+                "insertions": 941,
+                "hits": 28827
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "paper": {
+            "der": {
+              "rate": 0.23714012825760677,
+              "counts": {
+                "substitutions": 8402,
+                "deletions": 1013,
+                "insertions": 1013,
+                "hits": 34559
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.26004002365033885,
+              "counts": {
+                "substitutions": 9351,
+                "deletions": 1042,
+                "insertions": 1042,
+                "hits": 33581
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2605529332434255,
+                "counts": {
+                  "substitutions": 1518,
+                  "deletions": 207,
+                  "insertions": 207,
+                  "hits": 5690
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2856372218476062,
+                "counts": {
+                  "substitutions": 1690,
+                  "deletions": 214,
+                  "insertions": 214,
+                  "hits": 5511
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "paper": {
+              "der": {
+                "rate": 0.22349539515956307,
+                "counts": {
+                  "substitutions": 1753,
+                  "deletions": 167,
+                  "insertions": 167,
+                  "hits": 7418
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.24587706146926536,
+                "counts": {
+                  "substitutions": 1948,
+                  "deletions": 174,
+                  "insertions": 174,
+                  "hits": 7216
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2539361636953991,
+                "counts": {
+                  "substitutions": 3517,
+                  "deletions": 314,
+                  "insertions": 314,
+                  "hits": 12492
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.27997304417080193,
+                "counts": {
+                  "substitutions": 3932,
+                  "deletions": 319,
+                  "insertions": 319,
+                  "hits": 12072
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "paper": {
+              "der": {
+                "rate": 0.24847328244274808,
+                "counts": {
+                  "substitutions": 3064,
+                  "deletions": 421,
+                  "insertions": 421,
+                  "hits": 12235
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.27048346055979644,
+                "counts": {
+                  "substitutions": 3382,
+                  "deletions": 435,
+                  "insertions": 435,
+                  "hits": 11903
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "paper": {
+              "der": {
+                "rate": 0.26691176470588235,
+                "counts": {
+                  "substitutions": 275,
+                  "deletions": 44,
+                  "insertions": 44,
+                  "hits": 1041
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.3044117647058823,
+                "counts": {
+                  "substitutions": 324,
+                  "deletions": 45,
+                  "insertions": 45,
+                  "hits": 991
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "paper": {
+              "der": {
+                "rate": 0.23655509590071455,
+                "counts": {
+                  "substitutions": 3100,
+                  "deletions": 337,
+                  "insertions": 337,
+                  "hits": 12517
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.26200325937069074,
+                "counts": {
+                  "substitutions": 3490,
+                  "deletions": 345,
+                  "insertions": 345,
+                  "hits": 12119
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "paper": {
+              "der": {
+                "rate": 0.24158872828859468,
+                "counts": {
+                  "substitutions": 3104,
+                  "deletions": 437,
+                  "insertions": 437,
+                  "hits": 12925
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2624195311551075,
+                "counts": {
+                  "substitutions": 3419,
+                  "deletions": 451,
+                  "insertions": 451,
+                  "hits": 12596
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "catt",
+      "file": "catt.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "diacritization",
+    "model_key": "claude-opus-4-8",
+    "n": 1300,
+    "normalization_tiers": [
+      "paper",
+      "tanwin_included"
+    ],
+    "metrics": [
+      "der"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "paper": {
+        "der": {
+          "rate": 0.18154185235419493,
+          "counts": {
+            "substitutions": 13176,
+            "deletions": 920,
+            "insertions": 895,
+            "hits": 68480
+          }
+        }
+      },
+      "tanwin_included": {
+        "der": {
+          "rate": 0.18155396241038557,
+          "counts": {
+            "substitutions": 13177,
+            "deletions": 920,
+            "insertions": 895,
+            "hits": 68479
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "paper": {
+            "der": {
+              "rate": 0.177997970512744,
+              "counts": {
+                "substitutions": 2612,
+                "deletions": 183,
+                "insertions": 187,
+                "hits": 13958
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.17805766131439146,
+              "counts": {
+                "substitutions": 2613,
+                "deletions": 183,
+                "insertions": 187,
+                "hits": 13957
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "paper": {
+            "der": {
+              "rate": 0.18366721803590028,
+              "counts": {
+                "substitutions": 2653,
+                "deletions": 174,
+                "insertions": 171,
+                "hits": 13496
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.18366721803590028,
+              "counts": {
+                "substitutions": 2653,
+                "deletions": 174,
+                "insertions": 171,
+                "hits": 13496
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "paper": {
+            "der": {
+              "rate": 0.17309160305343513,
+              "counts": {
+                "substitutions": 2399,
+                "deletions": 169,
+                "insertions": 153,
+                "hits": 13152
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.17309160305343513,
+              "counts": {
+                "substitutions": 2399,
+                "deletions": 169,
+                "insertions": 153,
+                "hits": 13152
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "paper": {
+            "der": {
+              "rate": 0.18430172115051405,
+              "counts": {
+                "substitutions": 2842,
+                "deletions": 180,
+                "insertions": 169,
+                "hits": 14292
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.18430172115051405,
+              "counts": {
+                "substitutions": 2842,
+                "deletions": 180,
+                "insertions": 169,
+                "hits": 14292
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "paper": {
+            "der": {
+              "rate": 0.1882060002429248,
+              "counts": {
+                "substitutions": 2670,
+                "deletions": 214,
+                "insertions": 215,
+                "hits": 13582
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.1882060002429248,
+              "counts": {
+                "substitutions": 2670,
+                "deletions": 214,
+                "insertions": 215,
+                "hits": 13582
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "paper": {
+            "der": {
+              "rate": 0.17252500510308227,
+              "counts": {
+                "substitutions": 3708,
+                "deletions": 268,
+                "insertions": 250,
+                "hits": 20519
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.17256582976117574,
+              "counts": {
+                "substitutions": 3709,
+                "deletions": 268,
+                "insertions": 250,
+                "hits": 20518
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "paper": {
+            "der": {
+              "rate": 0.1853446049482619,
+              "counts": {
+                "substitutions": 9468,
+                "deletions": 652,
+                "insertions": 645,
+                "hits": 47961
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.1853446049482619,
+              "counts": {
+                "substitutions": 9468,
+                "deletions": 652,
+                "insertions": 645,
+                "hits": 47961
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "paper": {
+            "der": {
+              "rate": 0.18201129475156727,
+              "counts": {
+                "substitutions": 6147,
+                "deletions": 446,
+                "insertions": 433,
+                "hits": 32009
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.18201129475156727,
+              "counts": {
+                "substitutions": 6147,
+                "deletions": 446,
+                "insertions": 433,
+                "hits": 32009
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "paper": {
+            "der": {
+              "rate": 0.18112975849365534,
+              "counts": {
+                "substitutions": 7029,
+                "deletions": 474,
+                "insertions": 462,
+                "hits": 36471
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.18115249920407514,
+              "counts": {
+                "substitutions": 7030,
+                "deletions": 474,
+                "insertions": 462,
+                "hits": 36470
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "paper": {
+              "der": {
+                "rate": 0.17329737019554955,
+                "counts": {
+                  "substitutions": 1119,
+                  "deletions": 83,
+                  "insertions": 83,
+                  "hits": 6213
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.1734322319622387,
+                "counts": {
+                  "substitutions": 1120,
+                  "deletions": 83,
+                  "insertions": 83,
+                  "hits": 6212
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "paper": {
+              "der": {
+                "rate": 0.18173056328978368,
+                "counts": {
+                  "substitutions": 1493,
+                  "deletions": 100,
+                  "insertions": 104,
+                  "hits": 7745
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.18173056328978368,
+                "counts": {
+                  "substitutions": 1493,
+                  "deletions": 100,
+                  "insertions": 104,
+                  "hits": 7745
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "paper": {
+              "der": {
+                "rate": 0.18366721803590028,
+                "counts": {
+                  "substitutions": 2653,
+                  "deletions": 174,
+                  "insertions": 171,
+                  "hits": 13496
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.18366721803590028,
+                "counts": {
+                  "substitutions": 2653,
+                  "deletions": 174,
+                  "insertions": 171,
+                  "hits": 13496
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "paper": {
+              "der": {
+                "rate": 0.17309160305343513,
+                "counts": {
+                  "substitutions": 2399,
+                  "deletions": 169,
+                  "insertions": 153,
+                  "hits": 13152
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.17309160305343513,
+                "counts": {
+                  "substitutions": 2399,
+                  "deletions": 169,
+                  "insertions": 153,
+                  "hits": 13152
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "paper": {
+              "der": {
+                "rate": 0.16176470588235295,
+                "counts": {
+                  "substitutions": 190,
+                  "deletions": 16,
+                  "insertions": 14,
+                  "hits": 1154
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.16176470588235295,
+                "counts": {
+                  "substitutions": 190,
+                  "deletions": 16,
+                  "insertions": 14,
+                  "hits": 1154
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "paper": {
+              "der": {
+                "rate": 0.18622289081108187,
+                "counts": {
+                  "substitutions": 2652,
+                  "deletions": 164,
+                  "insertions": 155,
+                  "hits": 13138
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.18622289081108187,
+                "counts": {
+                  "substitutions": 2652,
+                  "deletions": 164,
+                  "insertions": 155,
+                  "hits": 13138
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "paper": {
+              "der": {
+                "rate": 0.1882060002429248,
+                "counts": {
+                  "substitutions": 2670,
+                  "deletions": 214,
+                  "insertions": 215,
+                  "hits": 13582
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.1882060002429248,
+                "counts": {
+                  "substitutions": 2670,
+                  "deletions": 214,
+                  "insertions": 215,
+                  "hits": 13582
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "claude-opus-4-8",
+      "file": "claude-opus-4-8.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "diacritization",
+    "model_key": "gemini-3.5-flash",
+    "n": 1300,
+    "normalization_tiers": [
+      "paper",
+      "tanwin_included"
+    ],
+    "metrics": [
+      "der"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "paper": {
+        "der": {
+          "rate": 0.11556626622747529,
+          "counts": {
+            "substitutions": 8232,
+            "deletions": 613,
+            "insertions": 698,
+            "hits": 73731
+          }
+        }
+      },
+      "tanwin_included": {
+        "der": {
+          "rate": 0.11557837628366596,
+          "counts": {
+            "substitutions": 8233,
+            "deletions": 613,
+            "insertions": 698,
+            "hits": 73730
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "paper": {
+            "der": {
+              "rate": 0.11329314152689071,
+              "counts": {
+                "substitutions": 1657,
+                "deletions": 119,
+                "insertions": 122,
+                "hits": 14977
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.11335283232853817,
+              "counts": {
+                "substitutions": 1658,
+                "deletions": 119,
+                "insertions": 122,
+                "hits": 14976
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "paper": {
+            "der": {
+              "rate": 0.12173007412853029,
+              "counts": {
+                "substitutions": 1725,
+                "deletions": 120,
+                "insertions": 142,
+                "hits": 14478
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.12173007412853029,
+              "counts": {
+                "substitutions": 1725,
+                "deletions": 120,
+                "insertions": 142,
+                "hits": 14478
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "paper": {
+            "der": {
+              "rate": 0.1087150127226463,
+              "counts": {
+                "substitutions": 1477,
+                "deletions": 107,
+                "insertions": 125,
+                "hits": 14136
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.1087150127226463,
+              "counts": {
+                "substitutions": 1477,
+                "deletions": 107,
+                "insertions": 125,
+                "hits": 14136
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "paper": {
+            "der": {
+              "rate": 0.11291440452812752,
+              "counts": {
+                "substitutions": 1635,
+                "deletions": 140,
+                "insertions": 180,
+                "hits": 15539
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.11291440452812752,
+              "counts": {
+                "substitutions": 1635,
+                "deletions": 140,
+                "insertions": 180,
+                "hits": 15539
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "paper": {
+            "der": {
+              "rate": 0.12109802016275963,
+              "counts": {
+                "substitutions": 1738,
+                "deletions": 127,
+                "insertions": 129,
+                "hits": 14601
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.12109802016275963,
+              "counts": {
+                "substitutions": 1738,
+                "deletions": 127,
+                "insertions": 129,
+                "hits": 14601
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "paper": {
+            "der": {
+              "rate": 0.10708307817922025,
+              "counts": {
+                "substitutions": 2269,
+                "deletions": 168,
+                "insertions": 186,
+                "hits": 22058
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.10712390283731374,
+              "counts": {
+                "substitutions": 2270,
+                "deletions": 168,
+                "insertions": 186,
+                "hits": 22057
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "paper": {
+            "der": {
+              "rate": 0.11914395413302113,
+              "counts": {
+                "substitutions": 5963,
+                "deletions": 445,
+                "insertions": 512,
+                "hits": 51673
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.11914395413302113,
+              "counts": {
+                "substitutions": 5963,
+                "deletions": 445,
+                "insertions": 512,
+                "hits": 51673
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "paper": {
+            "der": {
+              "rate": 0.11797316201233096,
+              "counts": {
+                "substitutions": 3945,
+                "deletions": 291,
+                "insertions": 318,
+                "hits": 34366
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.11797316201233096,
+              "counts": {
+                "substitutions": 3945,
+                "deletions": 291,
+                "insertions": 318,
+                "hits": 34366
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "paper": {
+            "der": {
+              "rate": 0.11345340428434984,
+              "counts": {
+                "substitutions": 4287,
+                "deletions": 322,
+                "insertions": 380,
+                "hits": 39365
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.11347614499476964,
+              "counts": {
+                "substitutions": 4288,
+                "deletions": 322,
+                "insertions": 380,
+                "hits": 39364
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "paper": {
+              "der": {
+                "rate": 0.10087660148347943,
+                "counts": {
+                  "substitutions": 644,
+                  "deletions": 52,
+                  "insertions": 52,
+                  "hits": 6719
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.10101146325016858,
+                "counts": {
+                  "substitutions": 645,
+                  "deletions": 52,
+                  "insertions": 52,
+                  "hits": 6718
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "paper": {
+              "der": {
+                "rate": 0.12315270935960591,
+                "counts": {
+                  "substitutions": 1013,
+                  "deletions": 67,
+                  "insertions": 70,
+                  "hits": 8258
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.12315270935960591,
+                "counts": {
+                  "substitutions": 1013,
+                  "deletions": 67,
+                  "insertions": 70,
+                  "hits": 8258
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "paper": {
+              "der": {
+                "rate": 0.12173007412853029,
+                "counts": {
+                  "substitutions": 1725,
+                  "deletions": 120,
+                  "insertions": 142,
+                  "hits": 14478
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.12173007412853029,
+                "counts": {
+                  "substitutions": 1725,
+                  "deletions": 120,
+                  "insertions": 142,
+                  "hits": 14478
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "paper": {
+              "der": {
+                "rate": 0.1087150127226463,
+                "counts": {
+                  "substitutions": 1477,
+                  "deletions": 107,
+                  "insertions": 125,
+                  "hits": 14136
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.1087150127226463,
+                "counts": {
+                  "substitutions": 1477,
+                  "deletions": 107,
+                  "insertions": 125,
+                  "hits": 14136
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "paper": {
+              "der": {
+                "rate": 0.12205882352941176,
+                "counts": {
+                  "substitutions": 148,
+                  "deletions": 9,
+                  "insertions": 9,
+                  "hits": 1203
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.12205882352941176,
+                "counts": {
+                  "substitutions": 148,
+                  "deletions": 9,
+                  "insertions": 9,
+                  "hits": 1203
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "paper": {
+              "der": {
+                "rate": 0.112134887802432,
+                "counts": {
+                  "substitutions": 1487,
+                  "deletions": 131,
+                  "insertions": 171,
+                  "hits": 14336
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.112134887802432,
+                "counts": {
+                  "substitutions": 1487,
+                  "deletions": 131,
+                  "insertions": 171,
+                  "hits": 14336
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "paper": {
+              "der": {
+                "rate": 0.12109802016275963,
+                "counts": {
+                  "substitutions": 1738,
+                  "deletions": 127,
+                  "insertions": 129,
+                  "hits": 14601
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.12109802016275963,
+                "counts": {
+                  "substitutions": 1738,
+                  "deletions": 127,
+                  "insertions": 129,
+                  "hits": 14601
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "gemini-3.5-flash",
+      "file": "gemini-3.5-flash.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "diacritization",
+    "model_key": "gpt-5.5",
+    "n": 1300,
+    "normalization_tiers": [
+      "paper",
+      "tanwin_included"
+    ],
+    "metrics": [
+      "der"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "paper": {
+        "der": {
+          "rate": 0.15027368726990895,
+          "counts": {
+            "substitutions": 10389,
+            "deletions": 1050,
+            "insertions": 970,
+            "hits": 71137
+          }
+        }
+      },
+      "tanwin_included": {
+        "der": {
+          "rate": 0.1502857973260996,
+          "counts": {
+            "substitutions": 10390,
+            "deletions": 1050,
+            "insertions": 970,
+            "hits": 71136
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "paper": {
+            "der": {
+              "rate": 0.14827195129230586,
+              "counts": {
+                "substitutions": 2071,
+                "deletions": 215,
+                "insertions": 198,
+                "hits": 14467
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.14833164209395333,
+              "counts": {
+                "substitutions": 2072,
+                "deletions": 215,
+                "insertions": 198,
+                "hits": 14466
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "paper": {
+            "der": {
+              "rate": 0.15726275807143295,
+              "counts": {
+                "substitutions": 2174,
+                "deletions": 206,
+                "insertions": 187,
+                "hits": 13943
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.15726275807143295,
+              "counts": {
+                "substitutions": 2174,
+                "deletions": 206,
+                "insertions": 187,
+                "hits": 13943
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "paper": {
+            "der": {
+              "rate": 0.1443384223918575,
+              "counts": {
+                "substitutions": 1915,
+                "deletions": 184,
+                "insertions": 170,
+                "hits": 13621
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.1443384223918575,
+              "counts": {
+                "substitutions": 1915,
+                "deletions": 184,
+                "insertions": 170,
+                "hits": 13621
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "paper": {
+            "der": {
+              "rate": 0.145893496592353,
+              "counts": {
+                "substitutions": 2136,
+                "deletions": 199,
+                "insertions": 191,
+                "hits": 14979
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.145893496592353,
+              "counts": {
+                "substitutions": 2136,
+                "deletions": 199,
+                "insertions": 191,
+                "hits": 14979
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "paper": {
+            "der": {
+              "rate": 0.15565407506376777,
+              "counts": {
+                "substitutions": 2093,
+                "deletions": 246,
+                "insertions": 224,
+                "hits": 14127
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.15565407506376777,
+              "counts": {
+                "substitutions": 2093,
+                "deletions": 246,
+                "insertions": 224,
+                "hits": 14127
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "paper": {
+            "der": {
+              "rate": 0.1447642375995101,
+              "counts": {
+                "substitutions": 2981,
+                "deletions": 295,
+                "insertions": 270,
+                "hits": 21219
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.1448050622576036,
+              "counts": {
+                "substitutions": 2982,
+                "deletions": 295,
+                "insertions": 270,
+                "hits": 21218
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "paper": {
+            "der": {
+              "rate": 0.1525972348960934,
+              "counts": {
+                "substitutions": 7408,
+                "deletions": 755,
+                "insertions": 700,
+                "hits": 49918
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.1525972348960934,
+              "counts": {
+                "substitutions": 7408,
+                "deletions": 755,
+                "insertions": 700,
+                "hits": 49918
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "paper": {
+            "der": {
+              "rate": 0.15245324076472722,
+              "counts": {
+                "substitutions": 4872,
+                "deletions": 516,
+                "insertions": 497,
+                "hits": 33214
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.15245324076472722,
+              "counts": {
+                "substitutions": 4872,
+                "deletions": 516,
+                "insertions": 497,
+                "hits": 33214
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "paper": {
+            "der": {
+              "rate": 0.1483603947787329,
+              "counts": {
+                "substitutions": 5517,
+                "deletions": 534,
+                "insertions": 473,
+                "hits": 37923
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.1483831354891527,
+              "counts": {
+                "substitutions": 5518,
+                "deletions": 534,
+                "insertions": 473,
+                "hits": 37922
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "paper": {
+              "der": {
+                "rate": 0.14645987862440998,
+                "counts": {
+                  "substitutions": 916,
+                  "deletions": 91,
+                  "insertions": 79,
+                  "hits": 6408
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.14659474039109913,
+                "counts": {
+                  "substitutions": 917,
+                  "deletions": 91,
+                  "insertions": 79,
+                  "hits": 6407
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "paper": {
+              "der": {
+                "rate": 0.14971085885628616,
+                "counts": {
+                  "substitutions": 1155,
+                  "deletions": 124,
+                  "insertions": 119,
+                  "hits": 8059
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.14971085885628616,
+                "counts": {
+                  "substitutions": 1155,
+                  "deletions": 124,
+                  "insertions": 119,
+                  "hits": 8059
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "paper": {
+              "der": {
+                "rate": 0.15726275807143295,
+                "counts": {
+                  "substitutions": 2174,
+                  "deletions": 206,
+                  "insertions": 187,
+                  "hits": 13943
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.15726275807143295,
+                "counts": {
+                  "substitutions": 2174,
+                  "deletions": 206,
+                  "insertions": 187,
+                  "hits": 13943
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "paper": {
+              "der": {
+                "rate": 0.1443384223918575,
+                "counts": {
+                  "substitutions": 1915,
+                  "deletions": 184,
+                  "insertions": 170,
+                  "hits": 13621
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.1443384223918575,
+                "counts": {
+                  "substitutions": 1915,
+                  "deletions": 184,
+                  "insertions": 170,
+                  "hits": 13621
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "paper": {
+              "der": {
+                "rate": 0.14044117647058824,
+                "counts": {
+                  "substitutions": 150,
+                  "deletions": 20,
+                  "insertions": 21,
+                  "hits": 1190
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.14044117647058824,
+                "counts": {
+                  "substitutions": 150,
+                  "deletions": 20,
+                  "insertions": 21,
+                  "hits": 1190
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "paper": {
+              "der": {
+                "rate": 0.14635828005515858,
+                "counts": {
+                  "substitutions": 1986,
+                  "deletions": 179,
+                  "insertions": 170,
+                  "hits": 13789
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.14635828005515858,
+                "counts": {
+                  "substitutions": 1986,
+                  "deletions": 179,
+                  "insertions": 170,
+                  "hits": 13789
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "paper": {
+              "der": {
+                "rate": 0.15565407506376777,
+                "counts": {
+                  "substitutions": 2093,
+                  "deletions": 246,
+                  "insertions": 224,
+                  "hits": 14127
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.15565407506376777,
+                "counts": {
+                  "substitutions": 2093,
+                  "deletions": 246,
+                  "insertions": 224,
+                  "hits": 14127
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "gpt-5.5",
+      "file": "gpt-5.5.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "diacritization",
+    "model_key": "levanti",
+    "n": 1300,
+    "normalization_tiers": [
+      "paper",
+      "tanwin_included"
+    ],
+    "metrics": [
+      "der"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "paper": {
+        "der": {
+          "rate": 0.07812197248595233,
+          "counts": {
+            "substitutions": 5544,
+            "deletions": 381,
+            "insertions": 526,
+            "hits": 76651
+          }
+        }
+      },
+      "tanwin_included": {
+        "der": {
+          "rate": 0.07813408254214299,
+          "counts": {
+            "substitutions": 5545,
+            "deletions": 381,
+            "insertions": 526,
+            "hits": 76650
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "paper": {
+            "der": {
+              "rate": 0.07144988957201695,
+              "counts": {
+                "substitutions": 1050,
+                "deletions": 59,
+                "insertions": 88,
+                "hits": 15644
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.07150958037366442,
+              "counts": {
+                "substitutions": 1051,
+                "deletions": 59,
+                "insertions": 88,
+                "hits": 15643
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "paper": {
+            "der": {
+              "rate": 0.08754518164553085,
+              "counts": {
+                "substitutions": 1133,
+                "deletions": 93,
+                "insertions": 203,
+                "hits": 15097
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.08754518164553085,
+              "counts": {
+                "substitutions": 1133,
+                "deletions": 93,
+                "insertions": 203,
+                "hits": 15097
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "paper": {
+            "der": {
+              "rate": 0.06469465648854962,
+              "counts": {
+                "substitutions": 903,
+                "deletions": 57,
+                "insertions": 57,
+                "hits": 14760
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.06469465648854962,
+              "counts": {
+                "substitutions": 903,
+                "deletions": 57,
+                "insertions": 57,
+                "hits": 14760
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "paper": {
+            "der": {
+              "rate": 0.07358207231142429,
+              "counts": {
+                "substitutions": 1102,
+                "deletions": 85,
+                "insertions": 87,
+                "hits": 16127
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.07358207231142429,
+              "counts": {
+                "substitutions": 1102,
+                "deletions": 85,
+                "insertions": 87,
+                "hits": 16127
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "paper": {
+            "der": {
+              "rate": 0.09316166646422933,
+              "counts": {
+                "substitutions": 1356,
+                "deletions": 87,
+                "insertions": 91,
+                "hits": 15023
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.09316166646422933,
+              "counts": {
+                "substitutions": 1356,
+                "deletions": 87,
+                "insertions": 91,
+                "hits": 15023
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "paper": {
+            "der": {
+              "rate": 0.07172892427025923,
+              "counts": {
+                "substitutions": 1525,
+                "deletions": 116,
+                "insertions": 116,
+                "hits": 22854
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.07176974892835272,
+              "counts": {
+                "substitutions": 1526,
+                "deletions": 116,
+                "insertions": 116,
+                "hits": 22853
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "paper": {
+            "der": {
+              "rate": 0.08081816773127184,
+              "counts": {
+                "substitutions": 4019,
+                "deletions": 265,
+                "insertions": 410,
+                "hits": 53797
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.08081816773127184,
+              "counts": {
+                "substitutions": 4019,
+                "deletions": 265,
+                "insertions": 410,
+                "hits": 53797
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "paper": {
+            "der": {
+              "rate": 0.08116159784467127,
+              "counts": {
+                "substitutions": 2666,
+                "deletions": 185,
+                "insertions": 282,
+                "hits": 35751
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.08116159784467127,
+              "counts": {
+                "substitutions": 2666,
+                "deletions": 185,
+                "insertions": 282,
+                "hits": 35751
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "paper": {
+            "der": {
+              "rate": 0.07545367717287488,
+              "counts": {
+                "substitutions": 2878,
+                "deletions": 196,
+                "insertions": 244,
+                "hits": 40900
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.07547641788329468,
+              "counts": {
+                "substitutions": 2879,
+                "deletions": 196,
+                "insertions": 244,
+                "hits": 40899
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "paper": {
+              "der": {
+                "rate": 0.08577208361429535,
+                "counts": {
+                  "substitutions": 542,
+                  "deletions": 47,
+                  "insertions": 47,
+                  "hits": 6826
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.08590694538098449,
+                "counts": {
+                  "substitutions": 543,
+                  "deletions": 47,
+                  "insertions": 47,
+                  "hits": 6825
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "paper": {
+              "der": {
+                "rate": 0.06007710430499036,
+                "counts": {
+                  "substitutions": 508,
+                  "deletions": 12,
+                  "insertions": 41,
+                  "hits": 8818
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.06007710430499036,
+                "counts": {
+                  "substitutions": 508,
+                  "deletions": 12,
+                  "insertions": 41,
+                  "hits": 8818
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "paper": {
+              "der": {
+                "rate": 0.08754518164553085,
+                "counts": {
+                  "substitutions": 1133,
+                  "deletions": 93,
+                  "insertions": 203,
+                  "hits": 15097
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.08754518164553085,
+                "counts": {
+                  "substitutions": 1133,
+                  "deletions": 93,
+                  "insertions": 203,
+                  "hits": 15097
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "paper": {
+              "der": {
+                "rate": 0.06469465648854962,
+                "counts": {
+                  "substitutions": 903,
+                  "deletions": 57,
+                  "insertions": 57,
+                  "hits": 14760
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.06469465648854962,
+                "counts": {
+                  "substitutions": 903,
+                  "deletions": 57,
+                  "insertions": 57,
+                  "hits": 14760
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "paper": {
+              "der": {
+                "rate": 0.07647058823529412,
+                "counts": {
+                  "substitutions": 80,
+                  "deletions": 12,
+                  "insertions": 12,
+                  "hits": 1268
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.07647058823529412,
+                "counts": {
+                  "substitutions": 80,
+                  "deletions": 12,
+                  "insertions": 12,
+                  "hits": 1268
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "paper": {
+              "der": {
+                "rate": 0.07333584054155698,
+                "counts": {
+                  "substitutions": 1022,
+                  "deletions": 73,
+                  "insertions": 75,
+                  "hits": 14859
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.07333584054155698,
+                "counts": {
+                  "substitutions": 1022,
+                  "deletions": 73,
+                  "insertions": 75,
+                  "hits": 14859
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "paper": {
+              "der": {
+                "rate": 0.09316166646422933,
+                "counts": {
+                  "substitutions": 1356,
+                  "deletions": 87,
+                  "insertions": 91,
+                  "hits": 15023
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.09316166646422933,
+                "counts": {
+                  "substitutions": 1356,
+                  "deletions": 87,
+                  "insertions": 91,
+                  "hits": 15023
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "levanti",
+      "file": "levanti.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "diacritization",
+    "model_key": "mishkal",
+    "n": 1300,
+    "normalization_tiers": [
+      "paper",
+      "tanwin_included"
+    ],
+    "metrics": [
+      "der"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "paper": {
+        "der": {
+          "rate": 0.2740505715946522,
+          "counts": {
+            "substitutions": 17730,
+            "deletions": 2457,
+            "insertions": 2443,
+            "hits": 62389
+          }
+        }
+      },
+      "tanwin_included": {
+        "der": {
+          "rate": 0.28768649486533615,
+          "counts": {
+            "substitutions": 18686,
+            "deletions": 2542,
+            "insertions": 2528,
+            "hits": 61348
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "paper": {
+            "der": {
+              "rate": 0.26825046260371277,
+              "counts": {
+                "substitutions": 3509,
+                "deletions": 493,
+                "insertions": 492,
+                "hits": 12751
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2832925446188742,
+              "counts": {
+                "substitutions": 3739,
+                "deletions": 504,
+                "insertions": 503,
+                "hits": 12510
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2858543159958341,
+              "counts": {
+                "substitutions": 3734,
+                "deletions": 466,
+                "insertions": 466,
+                "hits": 12123
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.3008638117993016,
+              "counts": {
+                "substitutions": 3933,
+                "deletions": 489,
+                "insertions": 489,
+                "hits": 11901
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "paper": {
+            "der": {
+              "rate": 0.28072519083969466,
+              "counts": {
+                "substitutions": 3383,
+                "deletions": 518,
+                "insertions": 512,
+                "hits": 11819
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.29402035623409667,
+              "counts": {
+                "substitutions": 3540,
+                "deletions": 544,
+                "insertions": 538,
+                "hits": 11636
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2642370336144161,
+              "counts": {
+                "substitutions": 3636,
+                "deletions": 470,
+                "insertions": 469,
+                "hits": 13208
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2769435139193716,
+              "counts": {
+                "substitutions": 3846,
+                "deletions": 475,
+                "insertions": 474,
+                "hits": 12993
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2721972549495931,
+              "counts": {
+                "substitutions": 3468,
+                "deletions": 510,
+                "insertions": 504,
+                "hits": 12488
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.28434349568808454,
+              "counts": {
+                "substitutions": 3628,
+                "deletions": 530,
+                "insertions": 524,
+                "hits": 12308
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "paper": {
+            "der": {
+              "rate": 0.28205756276791183,
+              "counts": {
+                "substitutions": 5264,
+                "deletions": 826,
+                "insertions": 819,
+                "hits": 18405
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.29597877117779137,
+              "counts": {
+                "substitutions": 5539,
+                "deletions": 859,
+                "insertions": 852,
+                "hits": 18097
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "paper": {
+            "der": {
+              "rate": 0.27067371429555276,
+              "counts": {
+                "substitutions": 12466,
+                "deletions": 1631,
+                "insertions": 1624,
+                "hits": 43984
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2841893218091975,
+              "counts": {
+                "substitutions": 13147,
+                "deletions": 1683,
+                "insertions": 1676,
+                "hits": 43251
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "paper": {
+            "der": {
+              "rate": 0.28205792445987254,
+              "counts": {
+                "substitutions": 8515,
+                "deletions": 1187,
+                "insertions": 1186,
+                "hits": 28900
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2954769182943889,
+              "counts": {
+                "substitutions": 8965,
+                "deletions": 1221,
+                "insertions": 1220,
+                "hits": 28416
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "paper": {
+            "der": {
+              "rate": 0.26702142174921545,
+              "counts": {
+                "substitutions": 9215,
+                "deletions": 1270,
+                "insertions": 1257,
+                "hits": 33489
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2808477736844499,
+              "counts": {
+                "substitutions": 9721,
+                "deletions": 1321,
+                "insertions": 1308,
+                "hits": 32932
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "paper": {
+              "der": {
+                "rate": 0.28415374241402563,
+                "counts": {
+                  "substitutions": 1604,
+                  "deletions": 252,
+                  "insertions": 251,
+                  "hits": 5559
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.29898853674983145,
+                "counts": {
+                  "substitutions": 1700,
+                  "deletions": 259,
+                  "insertions": 258,
+                  "hits": 5456
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2556221889055472,
+                "counts": {
+                  "substitutions": 1905,
+                  "deletions": 241,
+                  "insertions": 241,
+                  "hits": 7192
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2708288712786464,
+                "counts": {
+                  "substitutions": 2039,
+                  "deletions": 245,
+                  "insertions": 245,
+                  "hits": 7054
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2858543159958341,
+                "counts": {
+                  "substitutions": 3734,
+                  "deletions": 466,
+                  "insertions": 466,
+                  "hits": 12123
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.3008638117993016,
+                "counts": {
+                  "substitutions": 3933,
+                  "deletions": 489,
+                  "insertions": 489,
+                  "hits": 11901
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "paper": {
+              "der": {
+                "rate": 0.28072519083969466,
+                "counts": {
+                  "substitutions": 3383,
+                  "deletions": 518,
+                  "insertions": 512,
+                  "hits": 11819
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.29402035623409667,
+                "counts": {
+                  "substitutions": 3540,
+                  "deletions": 544,
+                  "insertions": 538,
+                  "hits": 11636
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "paper": {
+              "der": {
+                "rate": 0.28602941176470587,
+                "counts": {
+                  "substitutions": 277,
+                  "deletions": 56,
+                  "insertions": 56,
+                  "hits": 1027
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.30220588235294116,
+                "counts": {
+                  "substitutions": 299,
+                  "deletions": 56,
+                  "insertions": 56,
+                  "hits": 1005
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2623793406042372,
+                "counts": {
+                  "substitutions": 3359,
+                  "deletions": 414,
+                  "insertions": 413,
+                  "hits": 12181
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2747900213112699,
+                "counts": {
+                  "substitutions": 3547,
+                  "deletions": 419,
+                  "insertions": 418,
+                  "hits": 11988
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2721972549495931,
+                "counts": {
+                  "substitutions": 3468,
+                  "deletions": 510,
+                  "insertions": 504,
+                  "hits": 12488
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.28434349568808454,
+                "counts": {
+                  "substitutions": 3628,
+                  "deletions": 530,
+                  "insertions": 524,
+                  "hits": 12308
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "mishkal",
+      "file": "mishkal.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "diacritization",
+    "model_key": "shakkala",
+    "n": 1300,
+    "normalization_tiers": [
+      "paper",
+      "tanwin_included"
+    ],
+    "metrics": [
+      "der"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "paper": {
+        "der": {
+          "rate": 0.25578860685913585,
+          "counts": {
+            "substitutions": 17112,
+            "deletions": 2005,
+            "insertions": 2005,
+            "hits": 63459
+          }
+        }
+      },
+      "tanwin_included": {
+        "der": {
+          "rate": 0.2789551443518698,
+          "counts": {
+            "substitutions": 18863,
+            "deletions": 2086,
+            "insertions": 2086,
+            "hits": 61627
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "paper": {
+            "der": {
+              "rate": 0.25111920253089,
+              "counts": {
+                "substitutions": 3429,
+                "deletions": 389,
+                "insertions": 389,
+                "hits": 12935
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2748761415865815,
+              "counts": {
+                "substitutions": 3791,
+                "deletions": 407,
+                "insertions": 407,
+                "hits": 12555
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2690069227470441,
+              "counts": {
+                "substitutions": 3669,
+                "deletions": 361,
+                "insertions": 361,
+                "hits": 12293
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2952275929669791,
+              "counts": {
+                "substitutions": 4081,
+                "deletions": 369,
+                "insertions": 369,
+                "hits": 11873
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2600508905852417,
+              "counts": {
+                "substitutions": 3204,
+                "deletions": 442,
+                "insertions": 442,
+                "hits": 12074
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2812977099236641,
+              "counts": {
+                "substitutions": 3502,
+                "deletions": 460,
+                "insertions": 460,
+                "hits": 11758
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "paper": {
+            "der": {
+              "rate": 0.24887374379115168,
+              "counts": {
+                "substitutions": 3543,
+                "deletions": 383,
+                "insertions": 383,
+                "hits": 13388
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2738246505717916,
+              "counts": {
+                "substitutions": 3929,
+                "deletions": 406,
+                "insertions": 406,
+                "hits": 12979
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2506376776387708,
+              "counts": {
+                "substitutions": 3267,
+                "deletions": 430,
+                "insertions": 430,
+                "hits": 12769
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.27013239402404954,
+              "counts": {
+                "substitutions": 3560,
+                "deletions": 444,
+                "insertions": 444,
+                "hits": 12462
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "paper": {
+            "der": {
+              "rate": 0.26307409675443966,
+              "counts": {
+                "substitutions": 5092,
+                "deletions": 676,
+                "insertions": 676,
+                "hits": 18727
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.28618085323535414,
+              "counts": {
+                "substitutions": 5602,
+                "deletions": 704,
+                "insertions": 704,
+                "hits": 18189
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "paper": {
+            "der": {
+              "rate": 0.2527160345035382,
+              "counts": {
+                "substitutions": 12020,
+                "deletions": 1329,
+                "insertions": 1329,
+                "hits": 44732
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2759077839568878,
+              "counts": {
+                "substitutions": 13261,
+                "deletions": 1382,
+                "insertions": 1382,
+                "hits": 43438
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "paper": {
+            "der": {
+              "rate": 0.26299155484171804,
+              "counts": {
+                "substitutions": 8218,
+                "deletions": 967,
+                "insertions": 967,
+                "hits": 29417
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2867727060774053,
+              "counts": {
+                "substitutions": 9040,
+                "deletions": 1015,
+                "insertions": 1015,
+                "hits": 28547
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "paper": {
+            "der": {
+              "rate": 0.24946559330513485,
+              "counts": {
+                "substitutions": 8894,
+                "deletions": 1038,
+                "insertions": 1038,
+                "hits": 34042
+              }
+            }
+          },
+          "tanwin_included": {
+            "der": {
+              "rate": 0.2720926001728294,
+              "counts": {
+                "substitutions": 9823,
+                "deletions": 1071,
+                "insertions": 1071,
+                "hits": 33080
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2717464598786244,
+                "counts": {
+                  "substitutions": 1615,
+                  "deletions": 200,
+                  "insertions": 200,
+                  "hits": 5600
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2968307484828051,
+                "counts": {
+                  "substitutions": 1785,
+                  "deletions": 208,
+                  "insertions": 208,
+                  "hits": 5422
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "paper": {
+              "der": {
+                "rate": 0.23473977297065754,
+                "counts": {
+                  "substitutions": 1814,
+                  "deletions": 189,
+                  "insertions": 189,
+                  "hits": 7335
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.25744270721781964,
+                "counts": {
+                  "substitutions": 2006,
+                  "deletions": 199,
+                  "insertions": 199,
+                  "hits": 7133
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2690069227470441,
+                "counts": {
+                  "substitutions": 3669,
+                  "deletions": 361,
+                  "insertions": 361,
+                  "hits": 12293
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2952275929669791,
+                "counts": {
+                  "substitutions": 4081,
+                  "deletions": 369,
+                  "insertions": 369,
+                  "hits": 11873
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2600508905852417,
+                "counts": {
+                  "substitutions": 3204,
+                  "deletions": 442,
+                  "insertions": 442,
+                  "hits": 12074
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2812977099236641,
+                "counts": {
+                  "substitutions": 3502,
+                  "deletions": 460,
+                  "insertions": 460,
+                  "hits": 11758
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "paper": {
+              "der": {
+                "rate": 0.25073529411764706,
+                "counts": {
+                  "substitutions": 273,
+                  "deletions": 34,
+                  "insertions": 34,
+                  "hits": 1053
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.28455882352941175,
+                "counts": {
+                  "substitutions": 315,
+                  "deletions": 36,
+                  "insertions": 36,
+                  "hits": 1009
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "paper": {
+              "der": {
+                "rate": 0.24871505578538297,
+                "counts": {
+                  "substitutions": 3270,
+                  "deletions": 349,
+                  "insertions": 349,
+                  "hits": 12335
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.2729096151435377,
+                "counts": {
+                  "substitutions": 3614,
+                  "deletions": 370,
+                  "insertions": 370,
+                  "hits": 11970
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "paper": {
+              "der": {
+                "rate": 0.2506376776387708,
+                "counts": {
+                  "substitutions": 3267,
+                  "deletions": 430,
+                  "insertions": 430,
+                  "hits": 12769
+                }
+              }
+            },
+            "tanwin_included": {
+              "der": {
+                "rate": 0.27013239402404954,
+                "counts": {
+                  "substitutions": 3560,
+                  "deletions": 444,
+                  "insertions": 444,
+                  "hits": 12462
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "shakkala",
+      "file": "shakkala.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  }
+]

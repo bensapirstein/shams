@@ -1,0 +1,287 @@
+{
+  "overall": {
+    "utterances": 150,
+    "slots": 7290,
+    "agreement": 0.9318244170096022,
+    "kappa": 0.8976242530095143,
+    "alpha": 0.8976243523320455,
+    "der": 0.0681755829903978,
+    "der_no_final": 0.0767429292019456,
+    "word_agreement": 0.7757331799884991,
+    "words_compared": 1739,
+    "words_orthographically_divergent": 142,
+    "kappa_ci": [
+      0.8862384982917657,
+      0.9086601914749513
+    ],
+    "alpha_ci": [
+      0.8861908234859399,
+      0.9088090335041787
+    ],
+    "permutation_p": 0.0004997501249375312
+  },
+  "strata": {
+    "subdialect": {
+      "Jordanian": {
+        "utterances": 30,
+        "slots": 1008,
+        "agreement": 0.9126984126984127,
+        "kappa": 0.8666895102751153,
+        "alpha": 0.8666092943201377,
+        "der": 0.0873015873015873,
+        "der_no_final": 0.10079575596816977,
+        "word_agreement": 0.7283464566929134,
+        "words_compared": 254,
+        "words_orthographically_divergent": 31,
+        "kappa_ci": [
+          0.822721317870267,
+          0.9014108553826209
+        ]
+      },
+      "Lebanese": {
+        "utterances": 30,
+        "slots": 1078,
+        "agreement": 0.9322820037105751,
+        "kappa": 0.8956835962872725,
+        "alpha": 0.8957286632005663,
+        "der": 0.06771799628942486,
+        "der_no_final": 0.08343265792610251,
+        "word_agreement": 0.7740585774058577,
+        "words_compared": 239,
+        "words_orthographically_divergent": 9,
+        "kappa_ci": [
+          0.8633982991866184,
+          0.927395263590839
+        ]
+      },
+      "Palestinian/Rural": {
+        "utterances": 30,
+        "slots": 1484,
+        "agreement": 0.9535040431266847,
+        "kappa": 0.9304046880798419,
+        "alpha": 0.9304267416763606,
+        "der": 0.04649595687331536,
+        "der_no_final": 0.05585106382978723,
+        "word_agreement": 0.8370786516853933,
+        "words_compared": 356,
+        "words_orthographically_divergent": 28,
+        "kappa_ci": [
+          0.9132996775873635,
+          0.9443844367907992
+        ]
+      },
+      "Palestinian/Urban": {
+        "utterances": 30,
+        "slots": 2237,
+        "agreement": 0.9307107733571748,
+        "kappa": 0.8980641493081584,
+        "alpha": 0.8980759663829967,
+        "der": 0.06928922664282522,
+        "der_no_final": 0.07226792009400705,
+        "word_agreement": 0.7663551401869159,
+        "words_compared": 535,
+        "words_orthographically_divergent": 21,
+        "kappa_ci": [
+          0.8810104359144737,
+          0.916646948264267
+        ]
+      },
+      "Syrian": {
+        "utterances": 30,
+        "slots": 1483,
+        "agreement": 0.9244774106540796,
+        "kappa": 0.885766240876038,
+        "alpha": 0.8857977256524898,
+        "der": 0.07552258934592043,
+        "der_no_final": 0.08333333333333333,
+        "word_agreement": 0.7633802816901408,
+        "words_compared": 355,
+        "words_orthographically_divergent": 53,
+        "kappa_ci": [
+          0.8606079313762124,
+          0.9119290971035051
+        ]
+      }
+    },
+    "gender": {
+      "F": {
+        "utterances": 59,
+        "slots": 2983,
+        "agreement": 0.9289306067717064,
+        "kappa": 0.893609121410021,
+        "alpha": 0.8936154461441341,
+        "der": 0.07106939322829367,
+        "der_no_final": 0.0777292576419214,
+        "word_agreement": 0.7575757575757576,
+        "words_compared": 693,
+        "words_orthographically_divergent": 63,
+        "kappa_ci": [
+          0.8760794476585535,
+          0.911842297931483
+        ]
+      },
+      "M": {
+        "utterances": 91,
+        "slots": 4307,
+        "agreement": 0.9338286510332018,
+        "kappa": 0.9004033538607387,
+        "alpha": 0.9004102010547889,
+        "der": 0.06617134896679823,
+        "der_no_final": 0.07605029132168047,
+        "word_agreement": 0.7877629063097514,
+        "words_compared": 1046,
+        "words_orthographically_divergent": 79,
+        "kappa_ci": [
+          0.8855931618938665,
+          0.9137104570779626
+        ]
+      }
+    },
+    "source": {
+      "casablanca": {
+        "utterances": 70,
+        "slots": 2937,
+        "agreement": 0.9383724889342867,
+        "kappa": 0.9071420012234409,
+        "alpha": 0.9071416866008228,
+        "der": 0.06162751106571331,
+        "der_no_final": 0.07123534715960325,
+        "word_agreement": 0.7941585535465925,
+        "words_compared": 719,
+        "words_orthographically_divergent": 63,
+        "kappa_ci": [
+          0.8880114146980439,
+          0.9234628651881658
+        ]
+      },
+      "langmedia": {
+        "utterances": 80,
+        "slots": 4353,
+        "agreement": 0.9274063864001838,
+        "kappa": 0.8912281553547764,
+        "alpha": 0.8912363489910425,
+        "der": 0.07259361359981621,
+        "der_no_final": 0.08040804080408041,
+        "word_agreement": 0.7627450980392156,
+        "words_compared": 1020,
+        "words_orthographically_divergent": 79,
+        "kappa_ci": [
+          0.8770907476908816,
+          0.9056347492886863
+        ]
+      }
+    },
+    "first_pass_provenance": {
+      "silver approved in round 1": {
+        "utterances": 150,
+        "slots": 7290,
+        "agreement": 0.9318244170096022,
+        "kappa": 0.8976242530095143,
+        "alpha": 0.8976243523320455,
+        "der": 0.0681755829903978,
+        "der_no_final": 0.0767429292019456,
+        "word_agreement": 0.7757331799884991,
+        "words_compared": 1739,
+        "words_orthographically_divergent": 142,
+        "kappa_ci": [
+          0.8862512562150829,
+          0.9087832190242375
+        ]
+      }
+    }
+  },
+  "palestinian_contrast": {
+    "palestinian": {
+      "utterances": 60,
+      "slots": 3721,
+      "agreement": 0.9398011287288364,
+      "kappa": 0.9108360192939873,
+      "alpha": 0.9108431506390251,
+      "der": 0.06019887127116367,
+      "der_no_final": 0.0657243816254417,
+      "word_agreement": 0.7946127946127947,
+      "words_compared": 891,
+      "words_orthographically_divergent": 49,
+      "kappa_ci": [
+        0.8978477584225816,
+        0.9242446113945051
+      ]
+    },
+    "non_palestinian": {
+      "utterances": 90,
+      "slots": 3569,
+      "agreement": 0.9235079854300925,
+      "kappa": 0.8833648402698872,
+      "alpha": 0.883368168026373,
+      "der": 0.07649201456990753,
+      "der_no_final": 0.08820286659316427,
+      "word_agreement": 0.7558962264150944,
+      "words_compared": 848,
+      "words_orthographically_divergent": 93,
+      "kappa_ci": [
+        0.8653612921058049,
+        0.9011925913375027
+      ]
+    },
+    "difference": 0.027471179024100123,
+    "difference_ci": [
+      0.005998558314116553,
+      0.05010226213642266
+    ]
+  },
+  "disagreements": [
+    {
+      "pair": "i ↔ ∅",
+      "count": 146
+    },
+    {
+      "pair": "a ↔ ∅",
+      "count": 105
+    },
+    {
+      "pair": "a ↔ i",
+      "count": 62
+    },
+    {
+      "pair": "~ ↔ ∅",
+      "count": 59
+    },
+    {
+      "pair": "u ↔ ∅",
+      "count": 22
+    },
+    {
+      "pair": "i ↔ u",
+      "count": 21
+    },
+    {
+      "pair": "a ↔ ~a",
+      "count": 14
+    },
+    {
+      "pair": "i ↔ ~i",
+      "count": 11
+    },
+    {
+      "pair": "~i ↔ ∅",
+      "count": 11
+    },
+    {
+      "pair": "~a ↔ ∅",
+      "count": 9
+    },
+    {
+      "pair": "~a ↔ ~i",
+      "count": 6
+    },
+    {
+      "pair": "a ↔ u",
+      "count": 5
+    }
+  ],
+  "settings": {
+    "seed": 20260727,
+    "bootstrap": 5000,
+    "permutations": 2000
+  }
+}

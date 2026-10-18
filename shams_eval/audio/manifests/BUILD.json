@@ -1,0 +1,15 @@
+{
+  "release": "2.1",
+  "prepared": "2026-08-23",
+  "audio_rewritten": 101,
+  "rewritten_reason": "v1 LangMedia rows cut from clips converted to 16 kHz by an unrecorded step; no reconstruction reproduced them (20-44 dB SNR)",
+  "decoder": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers",
+  "decode_commands": {
+    "native": "ffmpeg -nostdin -i CLIP.mp4 -vn -acodec pcm_s16le OUT.wav",
+    "16k-mono": "ffmpeg -nostdin -i CLIP.mp4 -vn -acodec pcm_s16le -ar 16000 -ac 1 OUT.wav"
+  },
+  "cut": "raw PCM byte range, frame index = int(ms * rate / 1000), bounds clamped to the clip length in whole ms (pydub semantics)",
+  "verification": "reconstruction/verify.py --reference data/audio_cache --tolerance-db 55",
+  "verification_result": {"identical": 1108, "within_tolerance": 192, "failed": 0},
+  "tolerance_note": "AAC decoding is not bit-stable across ffmpeg builds: 4.4.2 vs 6.1.1 differ on 49.8% of samples by one LSB at 44.1 kHz (71 dB SNR) and 0.02% after resampling to 16 kHz (106 dB). Hash equality is therefore only available within one build; 55 dB separates decoder noise (worst row 63.1 dB) from a real difference (worst pre-fix row 43.9 dB)."
+}

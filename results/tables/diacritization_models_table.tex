@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{l l l}
+\toprule
+\textbf{System} & \textbf{Regime} & \textbf{Configuration} \\
+\midrule
+\href{https://ai.google.dev/gemini-api/docs/models}{Gemini 3.5 Flash} & Prompted zero-shot & prompted \\
+\href{https://docs.claude.com/en/docs/about-claude/models}{Claude Opus 4.8} & Prompted zero-shot & prompted \\
+\href{https://platform.openai.com/docs/models}{GPT-5.5} & Prompted zero-shot & prompted \\
+\href{https://github.com/Barqawiz/Shakkala}{Shakkala} & Task-trained & --- \\
+\href{https://github.com/linuxscout/mishkal}{Mishkal} & Rule-based & --- \\
+\href{https://github.com/abjadai/catt}{CATT} & Fine-tuned & --- \\
+\href{https://huggingface.co/guymorlan/levanti_arabic2diacritics}{Levanti}$^{*}$ & Fine-tuned & --- \\
+\bottomrule
+\end{tabular}
+\caption{Diacritization systems evaluated, with regime, configuration and model URLs. $^{*}$ Levanti produced the silver diacritization labels that the 780 expansion utterances were annotated from, so its score on those is not an independent measurement.}
+\label{tab:diac-models}
+\end{table*}

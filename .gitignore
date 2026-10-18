@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# The verification suite lives outside this repository and runs against it.
+tests/
+
+# A rebuild of the benchmark audio. `shams-eval build-audio` writes it; the
+# repository ships the manifests to rebuild it, not the audio itself. Anchored:
+# unanchored, this would also swallow the shams_eval/audio/ package.
+/audio/

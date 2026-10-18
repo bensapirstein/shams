@@ -1,0 +1,33 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{p{2.2cm} p{3.1cm} p{1.4cm}}
+\toprule
+ \textbf{Reference} & \textbf{Model output} & \textbf{MSA feature}\\
+\midrule
+  {{vocalized_transcript 7896_1}}
+    \newline \scriptsize {{subdialect 7896_1}}
+  & Catt: {{diacritization/catt 7896_1 bold=كَيْفَ,يُعْرَفُ}}
+    \newline Gemini: {{diacritization/gemini-3.5-flash 7896_1}}
+    & case endings \\
+  {{vocalized_transcript LEB_120}}
+    \newline \scriptsize {{subdialect LEB_120}}
+  & Mishkal: {{diacritization/mishkal LEB_120 bold=كُلّهَا}}
+    \newline Gemini: {{diacritization/gemini-3.5-flash LEB_120}}
+    & MSA vowels \\
+  {{vocalized_transcript LEB_0 :3}}
+    \newline \scriptsize {{subdialect LEB_0}}
+  & Mishkal: {{diacritization/mishkal LEB_0 bold=نُحْنَا,بِمَوْسِمٍ :3}}
+    \newline Levanti: {{diacritization/levanti LEB_0 :3}}
+    & short vowels \\
+    \bottomrule
+\end{tabular}
+\caption{Diacritization examples: an MSA-oriented dedicated system (Catt,
+Mishkal) vs.\ a Levantine-aware system (Gemini, Levanti) on the same utterance.
+\textbf{Bold} marks words that still differ from the reference after the
+normalization of \S\ref{sec:app_normalization}, so sukun and the MSA
+case-\textit{tanwin} are not marked; the Modern Standard Arabic feature that
+the dedicated diacritizer restores but Levantine speech does not is named at
+right, and the Levantine-aware system produces the dialectal form.}
+\label{tab:diac-qualitative}
+\end{table}

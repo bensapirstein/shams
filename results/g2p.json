@@ -1,0 +1,3332 @@
+[
+  {
+    "task": "g2p",
+    "model_key": "charsiu-byt5",
+    "n": 1300,
+    "normalization_tiers": [
+      "neutral",
+      "strict"
+    ],
+    "metrics": [
+      "cer"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "neutral": {
+        "cer": {
+          "rate": 0.3483106404437721,
+          "counts": {
+            "substitutions": 17490,
+            "deletions": 3490,
+            "insertions": 13555,
+            "hits": 78170
+          }
+        }
+      },
+      "strict": {
+        "cer": {
+          "rate": 0.37264055819956443,
+          "counts": {
+            "substitutions": 19837,
+            "deletions": 3454,
+            "insertions": 13666,
+            "hits": 75885
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.3400670033501675,
+              "counts": {
+                "substitutions": 3430,
+                "deletions": 632,
+                "insertions": 2739,
+                "hits": 15937
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.36269119264220734,
+              "counts": {
+                "substitutions": 3880,
+                "deletions": 618,
+                "insertions": 2758,
+                "hits": 15508
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.3654368151201367,
+              "counts": {
+                "substitutions": 3791,
+                "deletions": 775,
+                "insertions": 2704,
+                "hits": 15328
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.38751507840772015,
+              "counts": {
+                "substitutions": 4210,
+                "deletions": 768,
+                "insertions": 2732,
+                "hits": 14918
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.3612517006802721,
+              "counts": {
+                "substitutions": 3233,
+                "deletions": 520,
+                "insertions": 2885,
+                "hits": 14622
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.3867159875972366,
+              "counts": {
+                "substitutions": 3668,
+                "deletions": 520,
+                "insertions": 2921,
+                "hits": 14195
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.32323184117590914,
+              "counts": {
+                "substitutions": 3450,
+                "deletions": 716,
+                "insertions": 2607,
+                "hits": 16788
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.3486308558343669,
+              "counts": {
+                "substitutions": 3964,
+                "deletions": 711,
+                "insertions": 2633,
+                "hits": 16287
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.35392412685668406,
+              "counts": {
+                "substitutions": 3586,
+                "deletions": 847,
+                "insertions": 2620,
+                "hits": 15495
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.38004917456972254,
+              "counts": {
+                "substitutions": 4115,
+                "deletions": 837,
+                "insertions": 2622,
+                "hits": 14977
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.35930103035366195,
+              "counts": {
+                "substitutions": 5071,
+                "deletions": 792,
+                "insertions": 4459,
+                "hits": 22865
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.381235650177416,
+              "counts": {
+                "substitutions": 5659,
+                "deletions": 793,
+                "insertions": 4507,
+                "hits": 22294
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.34382721308681946,
+              "counts": {
+                "substitutions": 12419,
+                "deletions": 2698,
+                "insertions": 9096,
+                "hits": 55305
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.36913247195797244,
+              "counts": {
+                "substitutions": 14178,
+                "deletions": 2661,
+                "insertions": 9159,
+                "hits": 53591
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.3523705042161418,
+              "counts": {
+                "substitutions": 8359,
+                "deletions": 1564,
+                "insertions": 6458,
+                "hits": 36565
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.37514518002322883,
+              "counts": {
+                "substitutions": 9394,
+                "deletions": 1539,
+                "insertions": 6509,
+                "hits": 35561
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.3447267479396909,
+              "counts": {
+                "substitutions": 9131,
+                "deletions": 1926,
+                "insertions": 7097,
+                "hits": 41605
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.37043012793743596,
+              "counts": {
+                "substitutions": 10443,
+                "deletions": 1915,
+                "insertions": 7157,
+                "hits": 40324
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.3565147881694644,
+                "counts": {
+                  "substitutions": 1574,
+                  "deletions": 226,
+                  "insertions": 1322,
+                  "hits": 6957
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.37144813420061623,
+                "counts": {
+                  "substitutions": 1701,
+                  "deletions": 225,
+                  "insertions": 1329,
+                  "hits": 6837
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.32725493684397794,
+                "counts": {
+                  "substitutions": 1856,
+                  "deletions": 406,
+                  "insertions": 1417,
+                  "hits": 8980
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.3558658720981944,
+                "counts": {
+                  "substitutions": 2179,
+                  "deletions": 393,
+                  "insertions": 1429,
+                  "hits": 8671
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.3654368151201367,
+                "counts": {
+                  "substitutions": 3791,
+                  "deletions": 775,
+                  "insertions": 2704,
+                  "hits": 15328
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.38751507840772015,
+                "counts": {
+                  "substitutions": 4210,
+                  "deletions": 768,
+                  "insertions": 2732,
+                  "hits": 14918
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.3612517006802721,
+                "counts": {
+                  "substitutions": 3233,
+                  "deletions": 520,
+                  "insertions": 2885,
+                  "hits": 14622
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.3867159875972366,
+                "counts": {
+                  "substitutions": 3668,
+                  "deletions": 520,
+                  "insertions": 2921,
+                  "hits": 14195
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.35213032581453635,
+                "counts": {
+                  "substitutions": 264,
+                  "deletions": 46,
+                  "insertions": 252,
+                  "hits": 1286
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.371875,
+                "counts": {
+                  "substitutions": 290,
+                  "deletions": 48,
+                  "insertions": 257,
+                  "hits": 1262
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.32084926128732305,
+                "counts": {
+                  "substitutions": 3186,
+                  "deletions": 670,
+                  "insertions": 2355,
+                  "hits": 15502
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.3467100506146059,
+                "counts": {
+                  "substitutions": 3674,
+                  "deletions": 663,
+                  "insertions": 2376,
+                  "hits": 15025
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.35392412685668406,
+                "counts": {
+                  "substitutions": 3586,
+                  "deletions": 847,
+                  "insertions": 2620,
+                  "hits": 15495
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.38004917456972254,
+                "counts": {
+                  "substitutions": 4115,
+                  "deletions": 837,
+                  "insertions": 2622,
+                  "hits": 14977
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "charsiu-byt5",
+      "file": "charsiu-byt5.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "g2p",
+    "model_key": "claude-opus-4-8",
+    "n": 1300,
+    "normalization_tiers": [
+      "neutral",
+      "strict"
+    ],
+    "metrics": [
+      "cer"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "neutral": {
+        "cer": {
+          "rate": 0.12016137165910237,
+          "counts": {
+            "substitutions": 6186,
+            "deletions": 3341,
+            "insertions": 2387,
+            "hits": 89623
+          }
+        }
+      },
+      "strict": {
+        "cer": {
+          "rate": 0.1271174477696217,
+          "counts": {
+            "substitutions": 6870,
+            "deletions": 3355,
+            "insertions": 2382,
+            "hits": 88951
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11270563528176408,
+              "counts": {
+                "substitutions": 1105,
+                "deletions": 726,
+                "insertions": 423,
+                "hits": 18168
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.11826452064380685,
+              "counts": {
+                "substitutions": 1215,
+                "deletions": 729,
+                "insertions": 422,
+                "hits": 18062
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.1362219764753192,
+              "counts": {
+                "substitutions": 1510,
+                "deletions": 676,
+                "insertions": 524,
+                "hits": 17708
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.14213912344189786,
+              "counts": {
+                "substitutions": 1630,
+                "deletions": 676,
+                "insertions": 522,
+                "hits": 17590
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11945578231292517,
+              "counts": {
+                "substitutions": 1312,
+                "deletions": 457,
+                "insertions": 426,
+                "hits": 16606
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12886906380895394,
+              "counts": {
+                "substitutions": 1485,
+                "deletions": 461,
+                "insertions": 423,
+                "hits": 16437
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11024148134007827,
+              "counts": {
+                "substitutions": 1150,
+                "deletions": 727,
+                "insertions": 433,
+                "hits": 19077
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.11864325923098941,
+              "counts": {
+                "substitutions": 1320,
+                "deletions": 733,
+                "insertions": 434,
+                "hits": 18909
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12269169008430349,
+              "counts": {
+                "substitutions": 1109,
+                "deletions": 755,
+                "insertions": 581,
+                "hits": 18064
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12830548446986803,
+              "counts": {
+                "substitutions": 1220,
+                "deletions": 756,
+                "insertions": 581,
+                "hits": 17953
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11758563074352547,
+              "counts": {
+                "substitutions": 1972,
+                "deletions": 750,
+                "insertions": 656,
+                "hits": 26006
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12523481527864747,
+              "counts": {
+                "substitutions": 2182,
+                "deletions": 762,
+                "insertions": 656,
+                "hits": 25802
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12121212121212122,
+              "counts": {
+                "substitutions": 4214,
+                "deletions": 2591,
+                "insertions": 1731,
+                "hits": 63617
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12788584410052534,
+              "counts": {
+                "substitutions": 4688,
+                "deletions": 2593,
+                "insertions": 1726,
+                "hits": 63149
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11852521080709,
+              "counts": {
+                "substitutions": 2831,
+                "deletions": 1587,
+                "insertions": 1092,
+                "hits": 42070
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12461823030928722,
+              "counts": {
+                "substitutions": 3108,
+                "deletions": 1593,
+                "insertions": 1093,
+                "hits": 41793
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12160571189852265,
+              "counts": {
+                "substitutions": 3355,
+                "deletions": 1754,
+                "insertions": 1295,
+                "hits": 47553
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12932310846209333,
+              "counts": {
+                "substitutions": 3762,
+                "deletions": 1762,
+                "insertions": 1289,
+                "hits": 47158
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11545049674546078,
+                "counts": {
+                  "substitutions": 576,
+                  "deletions": 257,
+                  "insertions": 178,
+                  "hits": 7924
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.1192513979230857,
+                "counts": {
+                  "substitutions": 606,
+                  "deletions": 261,
+                  "insertions": 178,
+                  "hits": 7896
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11056751467710371,
+                "counts": {
+                  "substitutions": 529,
+                  "deletions": 469,
+                  "insertions": 245,
+                  "hits": 10244
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.11749533042782176,
+                "counts": {
+                  "substitutions": 609,
+                  "deletions": 468,
+                  "insertions": 244,
+                  "hits": 10166
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.1362219764753192,
+                "counts": {
+                  "substitutions": 1510,
+                  "deletions": 676,
+                  "insertions": 524,
+                  "hits": 17708
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.14213912344189786,
+                "counts": {
+                  "substitutions": 1630,
+                  "deletions": 676,
+                  "insertions": 522,
+                  "hits": 17590
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11945578231292517,
+                "counts": {
+                  "substitutions": 1312,
+                  "deletions": 457,
+                  "insertions": 426,
+                  "hits": 16606
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.12886906380895394,
+                "counts": {
+                  "substitutions": 1485,
+                  "deletions": 461,
+                  "insertions": 423,
+                  "hits": 16437
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.10776942355889724,
+                "counts": {
+                  "substitutions": 84,
+                  "deletions": 36,
+                  "insertions": 52,
+                  "hits": 1476
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.11625,
+                "counts": {
+                  "substitutions": 91,
+                  "deletions": 40,
+                  "insertions": 55,
+                  "hits": 1469
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.1104452939353239,
+                "counts": {
+                  "substitutions": 1066,
+                  "deletions": 691,
+                  "insertions": 381,
+                  "hits": 17601
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.11884102881933685,
+                "counts": {
+                  "substitutions": 1229,
+                  "deletions": 693,
+                  "insertions": 379,
+                  "hits": 17440
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.12269169008430349,
+                "counts": {
+                  "substitutions": 1109,
+                  "deletions": 755,
+                  "insertions": 581,
+                  "hits": 18064
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.12830548446986803,
+                "counts": {
+                  "substitutions": 1220,
+                  "deletions": 756,
+                  "insertions": 581,
+                  "hits": 17953
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "claude-opus-4-8",
+      "file": "claude-opus-4-8.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "g2p",
+    "model_key": "gemini-3.5-flash",
+    "n": 1300,
+    "normalization_tiers": [
+      "neutral",
+      "strict"
+    ],
+    "metrics": [
+      "cer"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "neutral": {
+        "cer": {
+          "rate": 0.1194351991931417,
+          "counts": {
+            "substitutions": 6384,
+            "deletions": 3511,
+            "insertions": 1947,
+            "hits": 89255
+          }
+        }
+      },
+      "strict": {
+        "cer": {
+          "rate": 0.12323546019198194,
+          "counts": {
+            "substitutions": 6759,
+            "deletions": 3520,
+            "insertions": 1943,
+            "hits": 88897
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11585579278963948,
+              "counts": {
+                "substitutions": 1198,
+                "deletions": 762,
+                "insertions": 357,
+                "hits": 18039
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.11816455063480956,
+              "counts": {
+                "substitutions": 1242,
+                "deletions": 766,
+                "insertions": 356,
+                "hits": 17998
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12973760932944606,
+              "counts": {
+                "substitutions": 1459,
+                "deletions": 718,
+                "insertions": 404,
+                "hits": 17717
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.13078005629272216,
+              "counts": {
+                "substitutions": 1478,
+                "deletions": 719,
+                "insertions": 405,
+                "hits": 17699
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11831292517006803,
+              "counts": {
+                "substitutions": 1303,
+                "deletions": 535,
+                "insertions": 336,
+                "hits": 16537
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.13033781210901377,
+              "counts": {
+                "substitutions": 1527,
+                "deletions": 534,
+                "insertions": 335,
+                "hits": 16322
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.1214565238140689,
+              "counts": {
+                "substitutions": 1290,
+                "deletions": 889,
+                "insertions": 366,
+                "hits": 18775
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12484495754221925,
+              "counts": {
+                "substitutions": 1360,
+                "deletions": 894,
+                "insertions": 363,
+                "hits": 18708
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11165194700923324,
+              "counts": {
+                "substitutions": 1134,
+                "deletions": 607,
+                "insertions": 484,
+                "hits": 18187
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.11254955090571529,
+              "counts": {
+                "substitutions": 1152,
+                "deletions": 607,
+                "insertions": 484,
+                "hits": 18170
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11869952659426343,
+              "counts": {
+                "substitutions": 2001,
+                "deletions": 863,
+                "insertions": 546,
+                "hits": 25864
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12808738607110554,
+              "counts": {
+                "substitutions": 2268,
+                "deletions": 870,
+                "insertions": 544,
+                "hits": 25608
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11973530998835591,
+              "counts": {
+                "substitutions": 4383,
+                "deletions": 2648,
+                "insertions": 1401,
+                "hits": 63391
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12125514695442283,
+              "counts": {
+                "substitutions": 4491,
+                "deletions": 2650,
+                "insertions": 1399,
+                "hits": 63289
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11953622440199621,
+              "counts": {
+                "substitutions": 2841,
+                "deletions": 1784,
+                "insertions": 932,
+                "hits": 41863
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12160708908676389,
+              "counts": {
+                "substitutions": 2937,
+                "deletions": 1787,
+                "insertions": 930,
+                "hits": 41770
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11934601800159508,
+              "counts": {
+                "substitutions": 3543,
+                "deletions": 1727,
+                "insertions": 1015,
+                "hits": 47392
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12467256368399074,
+              "counts": {
+                "substitutions": 3822,
+                "deletions": 1733,
+                "insertions": 1013,
+                "hits": 47127
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.12161699212058924,
+                "counts": {
+                  "substitutions": 600,
+                  "deletions": 294,
+                  "insertions": 171,
+                  "hits": 7863
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.12609836813876527,
+                "counts": {
+                  "substitutions": 637,
+                  "deletions": 298,
+                  "insertions": 170,
+                  "hits": 7828
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11136808397082369,
+                "counts": {
+                  "substitutions": 598,
+                  "deletions": 468,
+                  "insertions": 186,
+                  "hits": 10176
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.11198078804589523,
+                "counts": {
+                  "substitutions": 605,
+                  "deletions": 468,
+                  "insertions": 186,
+                  "hits": 10170
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.12973760932944606,
+                "counts": {
+                  "substitutions": 1459,
+                  "deletions": 718,
+                  "insertions": 404,
+                  "hits": 17717
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.13078005629272216,
+                "counts": {
+                  "substitutions": 1478,
+                  "deletions": 719,
+                  "insertions": 405,
+                  "hits": 17699
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11831292517006803,
+                "counts": {
+                  "substitutions": 1303,
+                  "deletions": 535,
+                  "insertions": 336,
+                  "hits": 16537
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.13033781210901377,
+                "counts": {
+                  "substitutions": 1527,
+                  "deletions": 534,
+                  "insertions": 335,
+                  "hits": 16322
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.10714285714285714,
+                "counts": {
+                  "substitutions": 98,
+                  "deletions": 34,
+                  "insertions": 39,
+                  "hits": 1464
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.113125,
+                "counts": {
+                  "substitutions": 104,
+                  "deletions": 38,
+                  "insertions": 39,
+                  "hits": 1458
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.12263663601611736,
+                "counts": {
+                  "substitutions": 1192,
+                  "deletions": 855,
+                  "insertions": 327,
+                  "hits": 17311
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.12581344902386118,
+                "counts": {
+                  "substitutions": 1256,
+                  "deletions": 856,
+                  "insertions": 324,
+                  "hits": 17250
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11165194700923324,
+                "counts": {
+                  "substitutions": 1134,
+                  "deletions": 607,
+                  "insertions": 484,
+                  "hits": 18187
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.11254955090571529,
+                "counts": {
+                  "substitutions": 1152,
+                  "deletions": 607,
+                  "insertions": 484,
+                  "hits": 18170
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "gemini-3.5-flash",
+      "file": "gemini-3.5-flash.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 2,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "g2p",
+    "model_key": "gpt-5.5",
+    "n": 1300,
+    "normalization_tiers": [
+      "neutral",
+      "strict"
+    ],
+    "metrics": [
+      "cer"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "neutral": {
+        "cer": {
+          "rate": 0.1221280887544125,
+          "counts": {
+            "substitutions": 6509,
+            "deletions": 3432,
+            "insertions": 2168,
+            "hits": 89209
+          }
+        }
+      },
+      "strict": {
+        "cer": {
+          "rate": 0.12601839154634187,
+          "counts": {
+            "substitutions": 6887,
+            "deletions": 3447,
+            "insertions": 2164,
+            "hits": 88842
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11875593779688984,
+              "counts": {
+                "substitutions": 1236,
+                "deletions": 743,
+                "insertions": 396,
+                "hits": 18020
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12136359092272318,
+              "counts": {
+                "substitutions": 1285,
+                "deletions": 748,
+                "insertions": 395,
+                "hits": 17973
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.13094400321705035,
+              "counts": {
+                "substitutions": 1457,
+                "deletions": 696,
+                "insertions": 452,
+                "hits": 17741
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.13198632891033374,
+              "counts": {
+                "substitutions": 1477,
+                "deletions": 696,
+                "insertions": 453,
+                "hits": 17723
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.1257687074829932,
+              "counts": {
+                "substitutions": 1413,
+                "deletions": 512,
+                "insertions": 386,
+                "hits": 16450
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.13735516509818854,
+              "counts": {
+                "substitutions": 1626,
+                "deletions": 516,
+                "insertions": 383,
+                "hits": 16241
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12202920683401737,
+              "counts": {
+                "substitutions": 1349,
+                "deletions": 814,
+                "insertions": 394,
+                "hits": 18791
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12536971663009255,
+              "counts": {
+                "substitutions": 1417,
+                "deletions": 819,
+                "insertions": 392,
+                "hits": 18726
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.11345845042151746,
+              "counts": {
+                "substitutions": 1054,
+                "deletions": 667,
+                "insertions": 540,
+                "hits": 18207
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.11495810125947112,
+              "counts": {
+                "substitutions": 1082,
+                "deletions": 668,
+                "insertions": 541,
+                "hits": 18179
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.125,
+              "counts": {
+                "substitutions": 2149,
+                "deletions": 845,
+                "insertions": 597,
+                "hits": 25734
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.13424476448897238,
+              "counts": {
+                "substitutions": 2408,
+                "deletions": 858,
+                "insertions": 593,
+                "hits": 25480
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12095651926954645,
+              "counts": {
+                "substitutions": 4360,
+                "deletions": 2587,
+                "insertions": 1571,
+                "hits": 63475
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12266079795541672,
+              "counts": {
+                "substitutions": 4479,
+                "deletions": 2589,
+                "insertions": 1571,
+                "hits": 63362
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12237566683875409,
+              "counts": {
+                "substitutions": 2963,
+                "deletions": 1706,
+                "insertions": 1020,
+                "hits": 41819
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12457521400610831,
+              "counts": {
+                "substitutions": 3066,
+                "deletions": 1708,
+                "insertions": 1018,
+                "hits": 41720
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.12190953628802552,
+              "counts": {
+                "substitutions": 3546,
+                "deletions": 1726,
+                "insertions": 1148,
+                "hits": 47390
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.12729205421206485,
+              "counts": {
+                "substitutions": 3821,
+                "deletions": 1739,
+                "insertions": 1146,
+                "hits": 47122
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.12652734954893227,
+                "counts": {
+                  "substitutions": 642,
+                  "deletions": 294,
+                  "insertions": 172,
+                  "hits": 7821
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.13134771197078626,
+                "counts": {
+                  "substitutions": 681,
+                  "deletions": 299,
+                  "insertions": 171,
+                  "hits": 7783
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11270236612702367,
+                "counts": {
+                  "substitutions": 594,
+                  "deletions": 449,
+                  "insertions": 224,
+                  "hits": 10199
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.11358178422129325,
+                "counts": {
+                  "substitutions": 604,
+                  "deletions": 449,
+                  "insertions": 224,
+                  "hits": 10190
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.13094400321705035,
+                "counts": {
+                  "substitutions": 1457,
+                  "deletions": 696,
+                  "insertions": 452,
+                  "hits": 17741
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.13198632891033374,
+                "counts": {
+                  "substitutions": 1477,
+                  "deletions": 696,
+                  "insertions": 453,
+                  "hits": 17723
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.1257687074829932,
+                "counts": {
+                  "substitutions": 1413,
+                  "deletions": 512,
+                  "insertions": 386,
+                  "hits": 16450
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.13735516509818854,
+                "counts": {
+                  "substitutions": 1626,
+                  "deletions": 516,
+                  "insertions": 383,
+                  "hits": 16241
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.10776942355889724,
+                "counts": {
+                  "substitutions": 94,
+                  "deletions": 39,
+                  "insertions": 39,
+                  "hits": 1463
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.114375,
+                "counts": {
+                  "substitutions": 101,
+                  "deletions": 43,
+                  "insertions": 39,
+                  "hits": 1456
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.12320487653683232,
+                "counts": {
+                  "substitutions": 1255,
+                  "deletions": 775,
+                  "insertions": 355,
+                  "hits": 17328
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.12627827703749614,
+                "counts": {
+                  "substitutions": 1316,
+                  "deletions": 776,
+                  "insertions": 353,
+                  "hits": 17270
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.11345845042151746,
+                "counts": {
+                  "substitutions": 1054,
+                  "deletions": 667,
+                  "insertions": 540,
+                  "hits": 18207
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.11495810125947112,
+                "counts": {
+                  "substitutions": 1082,
+                  "deletions": 668,
+                  "insertions": 541,
+                  "hits": 18179
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "gpt-5.5",
+      "file": "gpt-5.5.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "g2p",
+    "model_key": "jais-v2-8b",
+    "n": 1300,
+    "normalization_tiers": [
+      "neutral",
+      "strict"
+    ],
+    "metrics": [
+      "cer"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "neutral": {
+        "cer": {
+          "rate": 0.40829046898638427,
+          "counts": {
+            "substitutions": 14534,
+            "deletions": 17841,
+            "insertions": 8107,
+            "hits": 66775
+          }
+        }
+      },
+      "strict": {
+        "cer": {
+          "rate": 0.41638097926917805,
+          "counts": {
+            "substitutions": 15230,
+            "deletions": 17834,
+            "insertions": 8231,
+            "hits": 66112
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.36586829341467075,
+              "counts": {
+                "substitutions": 2943,
+                "deletions": 2876,
+                "insertions": 1498,
+                "hits": 14180
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.3736878936319104,
+              "counts": {
+                "substitutions": 3069,
+                "deletions": 2876,
+                "insertions": 1531,
+                "hits": 14061
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.39072082034784356,
+              "counts": {
+                "substitutions": 3245,
+                "deletions": 2677,
+                "insertions": 1851,
+                "hits": 13972
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.3960595094491355,
+              "counts": {
+                "substitutions": 3333,
+                "deletions": 2670,
+                "insertions": 1877,
+                "hits": 13893
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.4303673469387755,
+              "counts": {
+                "substitutions": 2446,
+                "deletions": 4199,
+                "insertions": 1263,
+                "hits": 11730
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.4415492574661372,
+              "counts": {
+                "substitutions": 2648,
+                "deletions": 4195,
+                "insertions": 1274,
+                "hits": 11540
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.41820177531736186,
+              "counts": {
+                "substitutions": 2868,
+                "deletions": 4316,
+                "insertions": 1579,
+                "hits": 13770
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.42615208472474003,
+              "counts": {
+                "substitutions": 3005,
+                "deletions": 4323,
+                "insertions": 1605,
+                "hits": 13634
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.4376254516258531,
+              "counts": {
+                "substitutions": 3032,
+                "deletions": 3773,
+                "insertions": 1916,
+                "hits": 13123
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.44603341863615836,
+              "counts": {
+                "substitutions": 3175,
+                "deletions": 3770,
+                "insertions": 1944,
+                "hits": 12984
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.4215399610136452,
+              "counts": {
+                "substitutions": 3919,
+                "deletions": 6122,
+                "insertions": 2069,
+                "hits": 18687
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.43049467752035064,
+              "counts": {
+                "substitutions": 4164,
+                "deletions": 6124,
+                "insertions": 2087,
+                "hits": 18458
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.4028854619295107,
+              "counts": {
+                "substitutions": 10615,
+                "deletions": 11719,
+                "insertions": 6038,
+                "hits": 48088
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.41062047422973164,
+              "counts": {
+                "substitutions": 11066,
+                "deletions": 11710,
+                "insertions": 6144,
+                "hits": 47654
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.40702977112373084,
+              "counts": {
+                "substitutions": 6804,
+                "deletions": 8347,
+                "insertions": 3771,
+                "hits": 31337
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.41271992085000214,
+              "counts": {
+                "substitutions": 7016,
+                "deletions": 8347,
+                "insertions": 3826,
+                "hits": 31131
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.40940336485511375,
+              "counts": {
+                "substitutions": 7730,
+                "deletions": 9494,
+                "insertions": 4336,
+                "hits": 35438
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.4196120116927983,
+              "counts": {
+                "substitutions": 8214,
+                "deletions": 9487,
+                "insertions": 4405,
+                "hits": 34981
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.4002512275893571,
+                "counts": {
+                  "substitutions": 1287,
+                  "deletions": 1522,
+                  "insertions": 696,
+                  "hits": 5948
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.40477005591692344,
+                "counts": {
+                  "substitutions": 1318,
+                  "deletions": 1525,
+                  "insertions": 704,
+                  "hits": 5920
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.3390855719622843,
+                "counts": {
+                  "substitutions": 1656,
+                  "deletions": 1354,
+                  "insertions": 802,
+                  "hits": 8232
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.34946188739660233,
+                "counts": {
+                  "substitutions": 1751,
+                  "deletions": 1351,
+                  "insertions": 827,
+                  "hits": 8141
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.39072082034784356,
+                "counts": {
+                  "substitutions": 3245,
+                  "deletions": 2677,
+                  "insertions": 1851,
+                  "hits": 13972
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.3960595094491355,
+                "counts": {
+                  "substitutions": 3333,
+                  "deletions": 2670,
+                  "insertions": 1877,
+                  "hits": 13893
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.4303673469387755,
+                "counts": {
+                  "substitutions": 2446,
+                  "deletions": 4199,
+                  "insertions": 1263,
+                  "hits": 11730
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.4415492574661372,
+                "counts": {
+                  "substitutions": 2648,
+                  "deletions": 4195,
+                  "insertions": 1274,
+                  "hits": 11540
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.4367167919799499,
+                "counts": {
+                  "substitutions": 186,
+                  "deletions": 401,
+                  "insertions": 110,
+                  "hits": 1009
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.444375,
+                "counts": {
+                  "substitutions": 198,
+                  "deletions": 404,
+                  "insertions": 109,
+                  "hits": 998
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.41667527637152596,
+                "counts": {
+                  "substitutions": 2682,
+                  "deletions": 3915,
+                  "insertions": 1469,
+                  "hits": 12761
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.42464621423406673,
+                "counts": {
+                  "substitutions": 2807,
+                  "deletions": 3919,
+                  "insertions": 1496,
+                  "hits": 12636
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.4376254516258531,
+                "counts": {
+                  "substitutions": 3032,
+                  "deletions": 3773,
+                  "insertions": 1916,
+                  "hits": 13123
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.44603341863615836,
+                "counts": {
+                  "substitutions": 3175,
+                  "deletions": 3770,
+                  "insertions": 1944,
+                  "hits": 12984
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "jais-v2-8b",
+      "file": "jais-v2-8b.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 131,
+      "runaway_hypotheses": 1,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  },
+  {
+    "task": "g2p",
+    "model_key": "levanti",
+    "n": 1300,
+    "normalization_tiers": [
+      "neutral",
+      "strict"
+    ],
+    "metrics": [
+      "cer"
+    ],
+    "overall": {
+      "n": 1300,
+      "duration_min": 128.15,
+      "gender": {
+        "F": 585,
+        "M": 715
+      },
+      "neutral": {
+        "cer": {
+          "rate": 0.18314674735249623,
+          "counts": {
+            "substitutions": 9774,
+            "deletions": 3613,
+            "insertions": 4772,
+            "hits": 85763
+          }
+        }
+      },
+      "strict": {
+        "cer": {
+          "rate": 0.22430830039525693,
+          "counts": {
+            "substitutions": 12310,
+            "deletions": 3411,
+            "insertions": 6525,
+            "hits": 83455
+          }
+        }
+      }
+    },
+    "by": {
+      "subdialect": {
+        "Jordanian": {
+          "n": 305,
+          "duration_min": 25.55,
+          "gender": {
+            "F": 163,
+            "M": 142
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.1721086054302715,
+              "counts": {
+                "substitutions": 1825,
+                "deletions": 651,
+                "insertions": 966,
+                "hits": 17523
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.20928721383584925,
+              "counts": {
+                "substitutions": 2308,
+                "deletions": 611,
+                "insertions": 1268,
+                "hits": 17087
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "n": 316,
+          "duration_min": 29.07,
+          "gender": {
+            "F": 157,
+            "M": 159
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.20378003418116014,
+              "counts": {
+                "substitutions": 2282,
+                "deletions": 748,
+                "insertions": 1024,
+                "hits": 16864
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.24351628468033776,
+              "counts": {
+                "substitutions": 2751,
+                "deletions": 699,
+                "insertions": 1395,
+                "hits": 16446
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "n": 234,
+          "duration_min": 21.79,
+          "gender": {
+            "F": 77,
+            "M": 157
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.17627210884353742,
+              "counts": {
+                "substitutions": 1743,
+                "deletions": 508,
+                "insertions": 988,
+                "hits": 16124
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.21367567861611272,
+              "counts": {
+                "substitutions": 2218,
+                "deletions": 476,
+                "insertions": 1234,
+                "hits": 15689
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "n": 230,
+          "duration_min": 25.04,
+          "gender": {
+            "F": 80,
+            "M": 150
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.16178295313543953,
+              "counts": {
+                "substitutions": 1872,
+                "deletions": 665,
+                "insertions": 853,
+                "hits": 18417
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.20188913271634387,
+              "counts": {
+                "substitutions": 2419,
+                "deletions": 618,
+                "insertions": 1195,
+                "hits": 17925
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "n": 215,
+          "duration_min": 26.7,
+          "gender": {
+            "F": 108,
+            "M": 107
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.20242874347651546,
+              "counts": {
+                "substitutions": 2052,
+                "deletions": 1041,
+                "insertions": 941,
+                "hits": 16835
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.2536002809975413,
+              "counts": {
+                "substitutions": 2614,
+                "deletions": 1007,
+                "insertions": 1433,
+                "hits": 16308
+              }
+            }
+          }
+        }
+      },
+      "source": {
+        "casablanca": {
+          "n": 393,
+          "duration_min": 34.23,
+          "gender": {
+            "F": 132,
+            "M": 261
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.1763088276246171,
+              "counts": {
+                "substitutions": 2712,
+                "deletions": 785,
+                "insertions": 1568,
+                "hits": 25231
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.21095108884714395,
+              "counts": {
+                "substitutions": 3357,
+                "deletions": 738,
+                "insertions": 1969,
+                "hits": 24651
+              }
+            }
+          }
+        },
+        "langmedia": {
+          "n": 907,
+          "duration_min": 93.92,
+          "gender": {
+            "F": 453,
+            "M": 454
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.18593621311521968,
+              "counts": {
+                "substitutions": 7062,
+                "deletions": 2828,
+                "insertions": 3204,
+                "hits": 60532
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.22976004543518386,
+              "counts": {
+                "substitutions": 8953,
+                "deletions": 2673,
+                "insertions": 4556,
+                "hits": 58804
+              }
+            }
+          }
+        }
+      },
+      "gender": {
+        "F": {
+          "n": 585,
+          "duration_min": 58.34,
+          "gender": {
+            "F": 585
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.18568232662192394,
+              "counts": {
+                "substitutions": 4676,
+                "deletions": 1687,
+                "insertions": 2269,
+                "hits": 40125
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.223448186862821,
+              "counts": {
+                "substitutions": 5761,
+                "deletions": 1608,
+                "insertions": 3020,
+                "hits": 39125
+              }
+            }
+          }
+        },
+        "M": {
+          "n": 715,
+          "duration_min": 69.81,
+          "gender": {
+            "M": 715
+          },
+          "neutral": {
+            "cer": {
+              "rate": 0.1809084349246136,
+              "counts": {
+                "substitutions": 5098,
+                "deletions": 1926,
+                "insertions": 2503,
+                "hits": 45638
+              }
+            }
+          },
+          "strict": {
+            "cer": {
+              "rate": 0.22506738544474394,
+              "counts": {
+                "substitutions": 6549,
+                "deletions": 1803,
+                "insertions": 3505,
+                "hits": 44330
+              }
+            }
+          }
+        }
+      },
+      "subdialect_source": {
+        "Jordanian": {
+          "casablanca": {
+            "n": 137,
+            "duration_min": 10.51,
+            "gender": {
+              "F": 46,
+              "M": 91
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.1770012561379468,
+                "counts": {
+                  "substitutions": 831,
+                  "deletions": 236,
+                  "insertions": 483,
+                  "hits": 7690
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.2064361520027388,
+                "counts": {
+                  "substitutions": 973,
+                  "deletions": 225,
+                  "insertions": 611,
+                  "hits": 7565
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 168,
+            "duration_min": 15.04,
+            "gender": {
+              "F": 117,
+              "M": 51
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.16829745596868884,
+                "counts": {
+                  "substitutions": 994,
+                  "deletions": 415,
+                  "insertions": 483,
+                  "hits": 9833
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.21150938361647248,
+                "counts": {
+                  "substitutions": 1335,
+                  "deletions": 386,
+                  "insertions": 657,
+                  "hits": 9522
+                }
+              }
+            }
+          }
+        },
+        "Lebanese": {
+          "langmedia": {
+            "n": 316,
+            "duration_min": 29.07,
+            "gender": {
+              "F": 157,
+              "M": 159
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.20378003418116014,
+                "counts": {
+                  "substitutions": 2282,
+                  "deletions": 748,
+                  "insertions": 1024,
+                  "hits": 16864
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.24351628468033776,
+                "counts": {
+                  "substitutions": 2751,
+                  "deletions": 699,
+                  "insertions": 1395,
+                  "hits": 16446
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Rural": {
+          "casablanca": {
+            "n": 234,
+            "duration_min": 21.79,
+            "gender": {
+              "F": 77,
+              "M": 157
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.17627210884353742,
+                "counts": {
+                  "substitutions": 1743,
+                  "deletions": 508,
+                  "insertions": 988,
+                  "hits": 16124
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.21367567861611272,
+                "counts": {
+                  "substitutions": 2218,
+                  "deletions": 476,
+                  "insertions": 1234,
+                  "hits": 15689
+                }
+              }
+            }
+          }
+        },
+        "Palestinian/Urban": {
+          "casablanca": {
+            "n": 22,
+            "duration_min": 1.94,
+            "gender": {
+              "F": 9,
+              "M": 13
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.17293233082706766,
+                "counts": {
+                  "substitutions": 138,
+                  "deletions": 41,
+                  "insertions": 97,
+                  "hits": 1417
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.204375,
+                "counts": {
+                  "substitutions": 166,
+                  "deletions": 37,
+                  "insertions": 124,
+                  "hits": 1397
+                }
+              }
+            }
+          },
+          "langmedia": {
+            "n": 208,
+            "duration_min": 23.1,
+            "gender": {
+              "F": 71,
+              "M": 137
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.16086372559148673,
+                "counts": {
+                  "substitutions": 1734,
+                  "deletions": 624,
+                  "insertions": 756,
+                  "hits": 17000
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.20168371036049995,
+                "counts": {
+                  "substitutions": 2253,
+                  "deletions": 581,
+                  "insertions": 1071,
+                  "hits": 16528
+                }
+              }
+            }
+          }
+        },
+        "Syrian": {
+          "langmedia": {
+            "n": 215,
+            "duration_min": 26.7,
+            "gender": {
+              "F": 108,
+              "M": 107
+            },
+            "neutral": {
+              "cer": {
+                "rate": 0.20242874347651546,
+                "counts": {
+                  "substitutions": 2052,
+                  "deletions": 1041,
+                  "insertions": 941,
+                  "hits": 16835
+                }
+              }
+            },
+            "strict": {
+              "cer": {
+                "rate": 0.2536002809975413,
+                "counts": {
+                  "substitutions": 2614,
+                  "deletions": 1007,
+                  "insertions": 1433,
+                  "hits": 16308
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "model_key": "levanti",
+      "file": "levanti.jsonl",
+      "n_scored": 1300,
+      "n_released": 1300,
+      "missing_from_predictions": [],
+      "unknown_seg_ids": [],
+      "duplicate_seg_ids": [],
+      "frozen_reference_rows": 0,
+      "frozen_reference_drift": 0,
+      "empty_hypotheses": 0,
+      "runaway_hypotheses": 0,
+      "skipped_empty": 0,
+      "dataset": "hub:shams-nlp/shams@f2715626f12ec17048fdad76e74101bb0fd31bb8:test"
+    }
+  }
+]

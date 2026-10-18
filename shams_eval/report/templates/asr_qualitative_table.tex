@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{p{2.4cm} p{2.4cm} p{2.0cm}}
+\toprule
+\textbf{Reference} & \textbf{MSA model} & \textbf{Dialect model} \\
+\midrule
+{{transcription LEB_111}}
+  \newline \scriptsize {{subdialect LEB_111}}
+  & {{asr/seamless-m4t-v2-large LEB_111 bold}}
+    \newline \scriptsize Seamless-MSA
+  & {{asr/seamless-m4t-v2-large-arz LEB_111 bold}}
+    \newline \scriptsize Seamless-EGY \\
+\addlinespace[6pt]
+{{transcription 46730_2}}
+  \newline \scriptsize {{subdialect 46730_2}}
+  & {{asr/seamless-m4t-v2-large 46730_2 bold}}
+    \newline \scriptsize Seamless-MSA
+  & {{asr/hebarab-whisper-levantine 46730_2 bold}}
+    \newline \scriptsize Whisper-Lev \\
+\addlinespace[6pt]
+{{transcription LEB_6 4:}}
+  \newline \scriptsize {{subdialect LEB_6}}
+  & {{asr/seamless-m4t-v2-large LEB_6 bold 3:}}
+    \newline \scriptsize Seamless-MSA
+  & \\
+\addlinespace[6pt]
+{{transcription 7562_1}}
+  \newline \scriptsize {{subdialect 7562_1}}
+  & {{asr/whisper-large-v3 7562_1 bold}}
+    \newline \scriptsize Whisper-v3
+  & \\
+\bottomrule
+\end{tabular}
+\caption{MSA substitution in ASR. \textbf{Bold} marks words that differ from the reference. Rows 1--2 show all three: reference, MSA-biased output, and dialect-adapted output; the dialect model preserves the spoken forms. Rows 3--4 show further MSA errors (hallucinated vocabulary, full-sentence recast).}
+\label{tab:asr-qualitative}
+\end{table}

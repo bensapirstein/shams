@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.30\textwidth} p{0.30\textwidth} p{0.30\textwidth}}
+\toprule
+\textbf{Reference} & \textbf{GPT-Audio} & \textbf{Gemini 3.5 F.} \\
+\midrule
+{{translit LEB_28}}
+  \newline \scriptsize {{subdialect LEB_28}}
+& {{a2p/gpt-audio LEB_28 bold}}
+& {{a2p/gemini-3.5-flash LEB_28 bold}} \\
+\addlinespace[6pt]
+{{translit 7765_1}}
+  \newline \scriptsize {{subdialect 7765_1}}
+& {{a2p/gpt-audio 7765_1 bold}}
+& {{a2p/gemini-3.5-flash 7765_1 bold}} \\
+\addlinespace[6pt]
+{{translit SYR_69}}
+  \newline \scriptsize {{subdialect SYR_69}}
+& {{a2p/gpt-audio SYR_69 bold}}
+& {{a2p/gemini-3.5-flash SYR_69 bold}} \\
+\addlinespace[6pt]
+{{translit SYR_33 :8}}
+  \newline \scriptsize {{subdialect SYR_33}}
+& {{a2p/gpt-audio SYR_33 bold :8}}
+& {{a2p/gemini-3.5-flash SYR_33 bold :8}} \\
+\bottomrule
+\end{tabular}
+\caption{Qualitative A2P outputs. Words diverging from the reference are shown in \textbf{bold}. Row~1 (Lebanese) is transcribed perfectly by both systems. Row~2 (Jordanian) illustrates the typical case: minor vowel-quality drift (\textit{hīk}~$\to$~\textit{hēk}), notation variants (\textit{ġ}~$\to$~\textit{gh}), and reduced vowels. Row~3 (Syrian) is again near-perfect, with only long-vowel marking differences in Gemini. Row~4 exposes the dominant failure mode on a harder Syrian clip: GPT-Audio reverts entirely to Arabic script (scored as fully wrong), while Gemini stays in phonetic transcription but introduces errors throughout.}
+\label{tab:a2p-qualitative}
+\end{table*}

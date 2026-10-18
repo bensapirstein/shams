@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{l l l}
+\toprule
+\textbf{System} & \textbf{Regime} & \textbf{Configuration} \\
+\midrule
+\href{https://ai.google.dev/gemini-api/docs/models}{Gemini 3.5 Flash} & Prompted zero-shot & prompted \\
+\href{https://docs.claude.com/en/docs/about-claude/models}{Claude Opus 4.8} & Prompted zero-shot & prompted \\
+\href{https://platform.openai.com/docs/models}{GPT-5.5} & Prompted zero-shot & prompted \\
+\href{https://huggingface.co/inceptionai/Jais-2-8B-Chat}{JAIS v2 8B} & Prompted zero-shot & prompted \\
+\href{https://huggingface.co/guymorlan/levanti_arabic2diacritics}{Levanti}$^{*}$ & Fine-tuned & --- \\
+\href{https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100}{CharsiuG2P} & Fine-tuned & multilingual byT5 small \\
+\bottomrule
+\end{tabular}
+\caption{G2P systems evaluated, with regime, configuration and model URLs. $^{*}$ Levanti produced the first-pass phonetic transcription that the 780 expansion utterances were corrected from, so its score on those is not an independent measurement.}
+\label{tab:g2p-models}
+\end{table*}

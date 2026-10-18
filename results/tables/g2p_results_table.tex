@@ -1,0 +1,30 @@
+% \dgapstack{figure}{d}: the same gap as \dgap, set under the figure
+% rather than beside it. A cell then costs the width of the figure alone,
+% which is what lets the table hold one column.
+\providecommand{\dgapstack}[2]{\begin{tabular}{@{}c@{}}#1\\[-2.5pt]{\scriptsize\textcolor{gray}{#2}}\end{tabular}}
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l cccccc@{}}
+\toprule
+& \rotatebox{60}{Gemini}
+& \rotatebox{60}{Opus 4.8}
+& \rotatebox{60}{GPT-5.5}
+& \rotatebox{60}{JAIS-8B}
+& \rotatebox{60}{Levanti$^{*}$}
+& \rotatebox{60}{Charsiu} \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{CER (\%)}} \\
+\addlinespace[2pt]
+\textbf{Overall} & \dgapstack{\textbf{11.9}}{-0.4} & \dgapstack{12.0}{-0.7} & \dgapstack{12.2}{-0.4} & \dgapstack{40.8}{-0.8} & \dgapstack{18.3}{-4.1} & \dgapstack{34.8}{-2.4} \\
+~ Pal./Urban & \dgapstack{12.1}{-0.3} & \dgapstack{\textbf{11.0}}{-0.8} & \dgapstack{12.2}{-0.3} & \dgapstack{41.8}{-0.8} & \dgapstack{16.2}{-4.0} & \dgapstack{32.3}{-2.5} \\
+~ Pal./Rural & \dgapstack{\textbf{11.8}}{-1.2} & \dgapstack{11.9}{-0.9} & \dgapstack{12.6}{-1.2} & \dgapstack{43.0}{-1.1} & \dgapstack{17.6}{-3.7} & \dgapstack{36.1}{-2.5} \\
+~ Jordanian & \dgapstack{11.6}{-0.2} & \dgapstack{\textbf{11.3}}{-0.6} & \dgapstack{11.9}{-0.3} & \dgapstack{36.6}{-0.8} & \dgapstack{17.2}{-3.7} & \dgapstack{34.0}{-2.3} \\
+~ Lebanese & \dgapstack{\textbf{13.0}}{-0.1} & \dgapstack{13.6}{-0.6} & \dgapstack{13.1}{-0.1} & \dgapstack{39.1}{-0.5} & \dgapstack{20.4}{-4.0} & \dgapstack{36.5}{-2.2} \\
+~ Syrian & \dgapstack{\textbf{11.2}}{-0.1} & \dgapstack{12.3}{-0.6} & \dgapstack{11.3}{-0.1} & \dgapstack{43.8}{-0.8} & \dgapstack{20.2}{-5.1} & \dgapstack{35.4}{-2.6} \\
+\bottomrule
+\end{tabular*}
+\caption{G2P results per variety (CER \%, $\downarrow$) on all 1300 utterances, under \textit{neutral} scoring. Small grey figures give the difference from the \textit{strict} tier (\S\ref{sec:app_normalization}). \textbf{Bold} = best per row. $^{*}$ Levanti produced the first-pass phonetic transcription that the 780 expansion utterances were corrected from, so its score on those is not an independent measurement.}
+\label{tab:g2p-results}
+\end{table}

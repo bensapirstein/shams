@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{l l l}
+\toprule
+\textbf{System} & \textbf{Regime} & \textbf{Configuration} \\
+\midrule
+\href{https://ai.google.dev/gemini-api/docs/models}{Direct: Gemini 3.5 Flash} & Prompted zero-shot & --- \\
+\href{https://platform.openai.com/docs/guides/audio}{Direct: GPT-Audio} & Prompted zero-shot & --- \\
+Cascade: Gemini ASR & Prompted zero-shot cascade & Gemini G2P module \\
+Cascade: GPT-Audio ASR & Prompted zero-shot cascade & Gemini G2P module \\
+Cascade: gold text$^{*}$ & Prompted zero-shot oracle & Gemini G2P module \\
+\bottomrule
+\end{tabular}
+\caption{A2P systems evaluated, with regime, configuration and model URLs. $^{*}$ Cascade: gold text is not an audio system. It passes the gold orthographic transcription through the same G2P module, and is the floor the two cascades are measured against rather than a system competing with them.}
+\label{tab:a2p-models}
+\end{table*}

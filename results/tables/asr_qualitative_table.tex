@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{p{2.4cm} p{2.4cm} p{2.0cm}}
+\toprule
+\textbf{Reference} & \textbf{MSA model} & \textbf{Dialect model} \\
+\midrule
+\ar{بس هيدي كانت مدرسة كتير منيحة.}
+  \newline \scriptsize Lebanese
+  & \ar{\textbf{لكن} \textbf{هذه} كانت مدرسة \textbf{جيدة} \textbf{جداً}}
+    \newline \scriptsize Seamless-MSA
+  & \ar{بس \textbf{هادي} كانت مدرسة كتير منيحة}
+    \newline \scriptsize Seamless-EGY \\
+\addlinespace[6pt]
+\ar{لا مش بس أبو الفوز}
+  \newline \scriptsize Pal./Rural
+  & \ar{\textbf{هذا} \textbf{ليس} \textbf{فقط} الفوز}
+    \newline \scriptsize Seamless-MSA
+  & \ar{لا مش بس ابو الفوز.}
+    \newline \scriptsize Whisper-Lev \\
+\addlinespace[6pt]
+\ar{\dots بيطلع النوعين دراق بكفيا ودراق نبع الصفا.}
+  \newline \scriptsize Lebanese
+  & \ar{\dots \textbf{هناك} \textbf{نوعان} \textbf{من} \textbf{الدراجات:} \textbf{الدراجات} \textbf{الكافية} \textbf{و} \textbf{الدراجات} \textbf{الصالحة} \textbf{للسفر}}
+    \newline \scriptsize Seamless-MSA
+  & \\
+\addlinespace[6pt]
+\ar{بدك إياني أقطع رزقي بإيدي؟}
+  \newline \scriptsize Jordanian
+  & \ar{\textbf{هل} \textbf{تريد} \textbf{أن} \textbf{أضع} رزقي \textbf{في} \textbf{يديك؟}}
+    \newline \scriptsize Whisper-v3
+  & \\
+\bottomrule
+\end{tabular}
+\caption{MSA substitution in ASR. \textbf{Bold} marks words that differ from the reference. Rows 1--2 show all three: reference, MSA-biased output, and dialect-adapted output; the dialect model preserves the spoken forms. Rows 3--4 show further MSA errors (hallucinated vocabulary, full-sentence recast).}
+\label{tab:asr-qualitative}
+\end{table}

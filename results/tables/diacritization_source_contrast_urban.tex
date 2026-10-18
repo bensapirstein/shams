@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l rr r@{}}
+\toprule
+& \multicolumn{1}{c}{Casablanca} & \multicolumn{1}{c}{LangMedia} & $\Delta$ \\
+& \multicolumn{1}{c}{\scriptsize $n=22$, 1.9\,min} & \multicolumn{1}{c}{\scriptsize $n=208$, 23.1\,min} & \\
+\midrule
+\multicolumn{4}{l}{\textit{DER (\%)}} \\
+\addlinespace[2pt]
+~ Gemini & 12.2 & 11.2 & -1.0 \\
+~ Opus 4.8 & 16.2 & 18.6 & +2.4 \\
+~ GPT-5.5 & 14.0 & 14.6 & +0.6 \\
+~ Shakkala & 25.1 & 24.9 & -0.2 \\
+~ Mishkal & 28.6 & 26.2 & -2.4 \\
+~ CATT & 26.7 & 23.7 & -3.0 \\
+~ Levanti$^{*}$ & 7.6 & 7.3 & -0.3 \\
+\bottomrule
+\end{tabular*}
+\caption{Within-variety source contrast for Pal./Urban, scored as in \Cref{tab:diacritization-results}, small on the Casablanca side and therefore indicative rather than conclusive. $\Delta$ is LangMedia $-$ Casablanca, and is a difference of rates rather than an estimate with an interval; read it against the two utterance counts in the header. Source and speaker gender remain partly entangled (\S\ref{sec:limitations}), so this bounds rather than isolates the source effect. $^{*}$ Levanti produced the silver diacritization labels that the 780 expansion utterances were annotated from, so its score on those is not an independent measurement.}
+\label{tab:diacritization-source-urban}
+\end{table}

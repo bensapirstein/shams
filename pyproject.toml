@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "shams-eval"
+version = "1.0.0"
+description = "Evaluation for SHAMS, a variety-stratified Levantine Arabic speech and text benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "The SHAMS authors" }]
+keywords = ["arabic", "levantine", "asr", "diacritization", "g2p", "benchmark"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# One dependency. `datasets` is imported only by `--references hub`, and only then.
+dependencies = [
+  "jiwer>=3.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5"]
+
+[project.scripts]
+shams-eval = "shams_eval.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/bensapirstein/shams"
+Dataset = "https://huggingface.co/datasets/shams-nlp/shams"
+
+[tool.hatch.build.targets.wheel]
+packages = ["shams_eval"]
+
+[tool.ruff]
+line-length = 96
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E741", "B905"]

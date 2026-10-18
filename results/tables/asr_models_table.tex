@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{l l l}
+\toprule
+\textbf{System} & \textbf{Regime} & \textbf{Configuration} \\
+\midrule
+\href{https://huggingface.co/facebook/seamless-m4t-v2-large}{Seamless-MSA} & Base zero-shot & \texttt{tgt\_lang=arb} \\
+\href{https://huggingface.co/facebook/seamless-m4t-v2-large}{Seamless-Egyptian} & Base zero-shot & \texttt{tgt\_lang=arz} \\
+\href{https://huggingface.co/openai/whisper-large-v3}{Whisper v3} & Base zero-shot & --- \\
+\href{https://huggingface.co/HebArabNlpProject/WhisperLevantine}{Whisper-Levantine} & Fine-tuned & --- \\
+\href{https://huggingface.co/facebook/mms-1b-all}{MMS-1B} & Fine-tuned & \texttt{ara} adapter \\
+\href{https://huggingface.co/Yusser/whisper-dialect-Mauritania_Algeria_Morocco_Yemen_UAE_Egypt_Palestine_Jordan-ft-first-stage}{BYZÖ-Whisper} & Fine-tuned & --- \\
+\href{https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026}{Cohere Transcribe} & Fine-tuned & \texttt{language=ar} \\
+\href{https://ai.google.dev/gemini-api/docs/audio}{Gemini 3.5 Flash} & Prompted zero-shot & --- \\
+\href{https://platform.openai.com/docs/guides/audio}{GPT-Audio} & Prompted zero-shot & --- \\
+\bottomrule
+\end{tabular}
+\caption{ASR systems evaluated, with regime, configuration and model URLs.}
+\label{tab:asr-models}
+\end{table*}
